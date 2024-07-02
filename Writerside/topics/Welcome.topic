@@ -14,16 +14,16 @@
 
         <primary>
             <title>Help and support</title>
-            <a href="https://github.com/warrayquipsome/Chillax/issues" summary="Start a discussion, propose an idea, ask a question">Getting help</a>
-            <a href="Troubleshooting.md" summary="Solutions to common issues">FAQ</a>
-            <a href="https://discord.com/invite/DrfX6286kF" summary="Chat with us on Discord">Chat</a>
+            <a href="https://github.com/warrayquipsome/Chillax/issues" type="idea" summary="Start a discussion, propose an idea, ask a question">Getting help</a>
+            <a href="Troubleshooting.md" type="offer" summary="Solutions to common issues">FAQ</a>
+            <a href="https://discord.com/invite/DrfX6286kF" type="community" summary="Chat with us on Discord">Chat</a>
         </primary>
 
         <secondary>
             <title>Promo</title>
-            <a href="https://github.com/warrayquipsome/Chillax" summary="Give us a star and a follow">Source Code</a>
-            <a href="https://github.com/Chillax-ORG" summary="Checkout our org and give us a follow">Chillax Org</a>
-            <a href="https://github.com/Inmoresentum" summary="Hey, don't forget about me!">Chat</a>
+            <a href="https://github.com/warrayquipsome/Chillax" type="branch" summary="Give us a star and a follow">Source Code</a>
+            <a href="https://github.com/Chillax-ORG" type="network" summary="Checkout our org and give us a follow">Chillax Org</a>
+            <a href="https://github.com/Inmoresentum" type="filtering" summary="Hey, don't forget about me!">:)</a>
         </secondary>
     </section-starting-page>
 </topic>
