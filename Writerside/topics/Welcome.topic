@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Welcome" id="Welcome">
+
+    <section-starting-page><title>C H I L L A X Docs</title>
+        <description>A discord client mod theme</description>
+        <spotlight>
+            <a href="Quick-start-guide.md" type="start" summary="Quick guide for C H I L L A X"/>
+            <a href="Installation-guide.md" type="install" summary="Detailed installation instructions for client mods (Vencord and BetterDiscord)"/>
+        </spotlight>
+
+        <primary>
+            <title>Help and support</title>
+            <a href="https://github.com/warrayquipsome/Chillax/issues" summary="Start a discussion, propose an idea, ask a question">Getting help</a>
+            <a href="Troubleshooting.md" summary="Solutions to common issues">FAQ</a>
+            <a href="https://discord.com/invite/DrfX6286kF" summary="Chat with us on Discord">Chat</a>
+        </primary>
+
+        <secondary>
+            <title>Promo</title>
+            <a href="https://github.com/warrayquipsome/Chillax" summary="Give us a star and a follow">Source Code</a>
+            <a href="https://github.com/Chillax-ORG" summary="Checkout our org and give us a follow">Chillax Org</a>
+            <a href="https://github.com/Inmoresentum" summary="Hey, don't forget about me!">Chat</a>
+        </secondary>
+    </section-starting-page>
+</topic>
