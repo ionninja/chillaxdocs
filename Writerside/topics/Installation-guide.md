@@ -7,12 +7,12 @@ switcher-label: Operating System
 
 > Before reading this page, select your operating system in the menu at the top of this page.
 > 
-{style="note"}
+{style="warning"}
 
 ## Installing IntelliJ, LaTeX and the TeXiFy-IDEA plugin
 In this section we will show you how to install everything that is necessary to get started with TeXiFy, as well as give a few pointers to get started with LaTeX.
 
-### Installation instructions for Windows {switcher-key="Windows"}
+### Installation instructions for Windows {switcher-key="BetterDiscord"}
 
 * If you don’t have the latest version yet, download and install
   [IntelliJ IDEA](https://www.jetbrains.com/idea/download/), the Community
@@ -88,6 +88,11 @@ In this section we will show you how to install everything that is necessary to 
   have to first remove the old TeX Live (see for example
   [these steps](https://tex.stackexchange.com/a/95502/98850)) and then
   install a newer TeX Live (based on the LaTeX3 setup), as follows.
+
+### Installation instructions for Vencord {switcher-key="vencord"}
+
+This is the part where we do vencord.
+
 
 ### Installing TeX Live
 
