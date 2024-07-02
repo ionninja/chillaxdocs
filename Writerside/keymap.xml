@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Keymap id="texify-docs">
+<Keymap id="chillax-docs">
     <Action id="$Reformat">
         <Shortcut layout="primary_Windows_Linux">Ctrl+Alt+L</Shortcut>
         <Shortcut layout="primary_macOS">Meta+Alt+L</Shortcut>
