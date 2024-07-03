@@ -4,10 +4,11 @@
         <algolia-id>TBA</algolia-id>
         <algolia-index>C H I L L A X Theme</algolia-index>
         <algolia-api-key>TBA</algolia-api-key>
-        <config-search-scopes-provider>https://www.jetbrains.com/</config-search-scopes-provider>
-
+<!--        <config-search-scopes-provider>https://www.jetbrains.com/</config-search-scopes-provider>-->
+        <noindex-content>false</noindex-content>
         <enable-browser-edits>true</enable-browser-edits>
         <browser-edits-url>https://github.com/Chillax-ORG</browser-edits-url>
     </variables>
     <build-profile instance="chillax-docs"/>
+    <sitemap priority="0.35" change-frequency="weekly"/>
 </buildprofiles>
