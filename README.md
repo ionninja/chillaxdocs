@@ -34,7 +34,7 @@ as the [Writerside](https://www.jetbrains.com/writerside/) project template.
 </p>
 
 <p align="center">
-   <a href="">
+   <a href="LICENSE">
       <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&colorA=A500&colorB=FEE9B4"
          alt="whatever" style="border-radius: 5px"/>
    </a>
