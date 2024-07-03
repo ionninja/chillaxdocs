@@ -8,7 +8,12 @@ If you want to edit it, you can click the <control>Edit page</control> button.
 Then, you will be taken to GitHub where you can edit the page.
 Once you are done, click <control>Commit Changes</control> and create a pull request.
 <format color="Aquamarine">However, if please talk with us on
-    <format color="DarkOrange"><a href="https://discord.com/invite/DrfX6286kF">discord</a>
+    <format color="DarkOrange">
+        <a href="https://discord.com/invite/DrfX6286kF">discord</a>
+    </format>
+    or create a new
+    <format color="DarkOrange">
+        <a href="https://github.com/Chillax-ORG/chillaxdocs/issues/new">GitHub Issue</a>
     </format>
     beforehand
 </format>.
@@ -17,7 +22,7 @@ Once you are done, click <control>Commit Changes</control> and create a pull req
 
 The Writerside documentation can be found at [Writerside | JetBrains Marketplace](https://plugins.jetbrains.com/plugin/20158-writerside/docs).
 
-## Writerside syntax overview
+### Writerside syntax overview
 Writerside syntax is based on Markdown, but with some extra features.
 
 * Display keyboard shortcuts:
