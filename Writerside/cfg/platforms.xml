@@ -2,7 +2,10 @@
 <platforms>
     <platform id="primary">
         <use-keymaps>
-            primary_Windows_Linux
+            primary_Windows
+        </use-keymaps>
+        <use-keymaps>
+            primary_Linux
         </use-keymaps>
         <use-keymaps>
             primary_macOS
