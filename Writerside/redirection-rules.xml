@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="7501c755">
+        <description>Created after removal of "Installing pre-release builds" from C H I L L A X</description>
+        <accepts>Installing-pre-release-builds.html</accepts>
+    </rule>
+    <rule id="6860064a">
+        <description>Created after removal of "Run configuration settings" from C H I L L A X</description>
+        <accepts>Run-configuration-settings.html</accepts>
+    </rule>
+    <rule id="5f90ca57">
+        <description>Created after removal of "PDF viewers" from C H I L L A X</description>
+        <accepts>PDF-viewers.html</accepts>
+    </rule>
+    <rule id="2de8d326">
+        <description>Created after removal of "External tools" from C H I L L A X</description>
+        <accepts>External-tools.html</accepts>
+    </rule>
+    <rule id="7df40d18">
+        <description>Created after removal of "BibTeX Inspections" from C H I L L A X</description>
+        <accepts>BibTeX-Inspections.html</accepts>
+    </rule>
+    <rule id="7892ce93">
+        <description>Created after removal of "Typesetting issues" from C H I L L A X</description>
+        <accepts>Typesetting-issues.html</accepts>
+    </rule>
+    <rule id="55002815">
+        <description>Created after removal of "Spacing" from C H I L L A X</description>
+        <accepts>Spacing.html</accepts>
+    </rule>
+    <rule id="511bdda7">
+        <description>Created after removal of "Code style issues" from C H I L L A X</description>
+        <accepts>Code-style-issues.html</accepts>
+    </rule>
+    <rule id="3db512bd">
+        <description>Created after removal of "Probable bugs" from C H I L L A X</description>
+        <accepts>Probable-bugs.html</accepts>
+    </rule>
+    <rule id="1b92fe5b">
+        <description>Created after removal of "Packages" from C H I L L A X</description>
+        <accepts>Packages.html</accepts>
+    </rule>
+    <rule id="60f756d3">
+        <description>Created after removal of "Redundant code" from C H I L L A X</description>
+        <accepts>Redundant-code.html</accepts>
+    </rule>
+    <rule id="466894cc">
+        <description>Created after removal of "Discouraged or obsolete code" from C H I L L A X</description>
+        <accepts>Discouraged-or-obsolete-code.html</accepts>
+    </rule>
+    <rule id="3ca73893">
+        <description>Created after removal of "Intentions" from C H I L L A X</description>
+        <accepts>Intentions.html</accepts>
+    </rule>
+    <rule id="22474b40">
+        <description>Created after removal of "TeXiFy settings" from C H I L L A X</description>
+        <accepts>TeXiFy-settings.html</accepts>
+    </rule>
+    <rule id="36b8456">
+        <description>Created after removal of "Editor" from C H I L L A X</description>
+        <accepts>Editor.html</accepts>
+    </rule>
+    <rule id="5cb672b1">
+        <description>Created after removal of "General" from C H I L L A X</description>
+        <accepts>General.html</accepts>
+    </rule>
+    <rule id="25066281">
+        <description>Created after removal of "Code Style" from C H I L L A X</description>
+        <accepts>Code-Style.html</accepts>
+    </rule>
+    <rule id="3c65cb99">
+        <description>Created after removal of "Tool Windows" from C H I L L A X</description>
+        <accepts>Tool-Windows.html</accepts>
+    </rule>
+    <rule id="7382f94a">
+        <description>Created after removal of "Code completion" from C H I L L A X</description>
+        <accepts>Code-completion.html</accepts>
+    </rule>
+    <rule id="4207483d">
+        <description>Created after removal of "Code formatting" from C H I L L A X</description>
+        <accepts>Code-formatting.html</accepts>
+    </rule>
+    <rule id="7cbc13fc">
+        <description>Created after removal of "Code navigation" from C H I L L A X</description>
+        <accepts>Code-navigation.html</accepts>
+    </rule>
+    <rule id="7880700">
+        <description>Created after removal of "Errors and warnings" from C H I L L A X</description>
+        <accepts>Errors-and-warnings.html</accepts>
+    </rule>
+    <rule id="7fcdce18">
+        <description>Created after removal of "Running a LaTeX file" from C H I L L A X</description>
+        <accepts>Running-a-LaTeX-file.html</accepts>
+    </rule>
+    <rule id="3beb45eb">
+        <description>Created after removal of "BibTeX" from C H I L L A X</description>
+        <accepts>BibTeX.html</accepts>
+    </rule>
+    <rule id="56d46d95">
+        <description>Created after removal of "Inspections" from C H I L L A X</description>
+        <accepts>Inspections.html</accepts>
+    </rule>
+    <rule id="64ef87a3">
+        <description>Created after removal of "Tools" from C H I L L A X</description>
+        <accepts>Tools.html</accepts>
+    </rule>
+    <rule id="4d4e784a">
+        <description>Created after removal of "Editing a LaTeX file" from C H I L L A X</description>
+        <accepts>Editing-a-LaTeX-file.html</accepts>
+    </rule>
+</rules>

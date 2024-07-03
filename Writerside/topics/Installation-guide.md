@@ -4,6 +4,8 @@ switcher-label: client mod
 
 # Installation guide
 
+Welcome to the detailed installation guide of CHILLAX.
+
 > Before reading this page, select your operating system in the menu at the top of this page.
 >
 {style="warning"}
