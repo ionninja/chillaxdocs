@@ -32,3 +32,10 @@ as the [Writerside](https://www.jetbrains.com/writerside/) project template.
 <p align="center">Copyright &copy; 2024-present 
    <a href="https://github.com/Chillax-ORG" target="_blank">Chillax-ORG</a>
 </p>
+
+<p align="center">
+   <a href="">
+      <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&colorA=A500&colorB=FEE9B4"
+         alt="whatever" style="border-radius: 5px"/>
+   </a>
+</p>
