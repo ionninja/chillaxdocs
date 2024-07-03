@@ -7,6 +7,13 @@ If you want to edit it, you can click the <control>Edit page</control> button.
 
 Then, you will be taken to GitHub where you can edit the page.
 Once you are done, click <control>Commit Changes</control> and create a pull request.
+<format color="Aquamarine">However, if please talk with us on
+    <format color="DarkOrange"><a href="https://discord.com/invite/DrfX6286kF">discord</a>
+    </format>
+    beforehand
+</format>.
+
+## About Writerside
 
 The Writerside documentation can be found at [Writerside | JetBrains Marketplace](https://plugins.jetbrains.com/plugin/20158-writerside/docs).
 

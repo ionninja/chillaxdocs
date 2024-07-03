@@ -1,8 +1,8 @@
 # Quick start guide
 
 <tldr>
-  <p>Install the CHILLAX theme in your favourite client mod and enjoy</p>
-  <p>Optionally, configure change the css variables to make it look nicer</p>
+  <p>Install the CHILLAX theme in your favourite client mod and enjoy!</p>
+  <p>Optionally, configure change the css variables to make it look nicer :)</p>
   <img src="https://private-user-images.githubusercontent.com/84565593/287190647-eedd9969-6f6d-4cf0-8885-89cefa473085.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjAwMzY1OTksIm5iZiI6MTcyMDAzNjI5OSwicGF0aCI6Ii84NDU2NTU5My8yODcxOTA2NDctZWVkZDk5NjktNmY2ZC00Y2YwLTg4ODUtODljZWZhNDczMDg1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzAzVDE5NTEzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTEwZDJhZWE4MmQ3MTk2ODQwNmRiZjQ1ZmZiODUzNjgyMTdiMWUwM2JmYmEzYWQ3ZGM1N2ZmNjRkOTIxNjA5MjkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.E_bo29_Ezdy-j1Lx5PbxPwoz_dGgjZUS7Dro_rp3y9E" alt="whatever"/>
 </tldr>
 
@@ -25,4 +25,5 @@ While not strictly necessary, the following things are highly recommended.
 
 * Turn on hardware acceleration if it's not already enabled by default in the Discord settings section.
     * Steps are `Settings` `>` `Advanced` `>` `Hardware Acceleration`.
-* Change the background and other stuff as per your liking.
+* Change the background and other [css variables](https://github.com/warrayquipsome/Chillax/blob/main/chillax.theme.css)
+  as per your liking.
