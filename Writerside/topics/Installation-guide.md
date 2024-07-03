@@ -1,5 +1,5 @@
 ---
-switcher-label: client mod
+switcher-label: Client Mod
 ---
 
 # Installation guide
