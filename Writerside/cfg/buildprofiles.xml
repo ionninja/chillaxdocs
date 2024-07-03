@@ -4,11 +4,29 @@
         <algolia-id>TBA</algolia-id>
         <algolia-index>C H I L L A X Theme</algolia-index>
         <algolia-api-key>TBA</algolia-api-key>
-<!--        <config-search-scopes-provider>https://www.jetbrains.com/</config-search-scopes-provider>-->
+        <!--        <config-search-scopes-provider>https://www.jetbrains.com/</config-search-scopes-provider>-->
         <noindex-content>false</noindex-content>
         <enable-browser-edits>true</enable-browser-edits>
         <browser-edits-url>https://github.com/Chillax-ORG/chillaxdocs/tree/main/Writerside/</browser-edits-url>
+        <primary-color>dracula</primary-color>
+        <custom-favicons>chillaxlogo.png</custom-favicons>
+        <header-logo>chillaxlogo.png</header-logo>
+        <!--        replace the ulr with the docs page links when deployed-->
+        <product-web-url>https://github.com/Chillax-ORG</product-web-url>
+        <download-title>Get CHILLAX</download-title>
+        <download-page>https://github.com/warrayquipsome/Chillax/blob/main/chillax.theme.css</download-page>
+        <showDownloadButton>true</showDownloadButton>
     </variables>
     <build-profile instance="chillax-docs"/>
     <sitemap priority="0.35" change-frequency="weekly"/>
+    <footer>
+        <copyright>2024 Chillax-ORG</copyright>
+        <social type="email" href="noor.mohammad.rafee@g.bracu.ac.bd"/>
+<!--        <social type="twitter" href=""/>-->
+<!--        <social type="facebook" href=""/>-->
+        <link href="https://discord.com/invite/DrfX6286kF">Discord Community</link>
+        <link href="https://betterdiscord.app/theme/Chillax">Chillax on BetterDiscord</link>
+        <link href="https://github.com/warrayquipsome/Chillax">Chillax Repo</link>
+        <link href="https://github.com/Chillax-ORG">Chillax-ORG</link>
+    </footer>
 </buildprofiles>
