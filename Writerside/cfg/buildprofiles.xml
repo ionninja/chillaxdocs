@@ -10,7 +10,7 @@
         <browser-edits-url>https://github.com/Chillax-ORG/chillaxdocs/tree/main/Writerside/</browser-edits-url>
         <primary-color>dracula</primary-color>
         <custom-favicons>chillaxlogo.png</custom-favicons>
-        <header-logo>chillaxlogo.png</header-logo>
+        <header-logo>chillaxlogodark.png</header-logo>
         <!--        replace the ulr with the docs page links when deployed-->
         <product-web-url>https://github.com/Chillax-ORG</product-web-url>
         <download-title>Get CHILLAX</download-title>
