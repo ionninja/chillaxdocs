@@ -1,3 +1,3 @@
-# Contributing to the source code
+# Contributing to C H I L L A X theme
 
 TBA

@@ -1,0 +1,1 @@
+# FAQ BetterDiscord Edition

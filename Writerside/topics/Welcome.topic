@@ -15,7 +15,7 @@
         <primary>
             <title>Help and support</title>
             <a href="https://github.com/warrayquipsome/Chillax/issues" type="idea" summary="Start a discussion, propose an idea, ask a question">Getting help</a>
-            <a href="Troubleshooting.md" type="offer" summary="Solutions to common issues">FAQ</a>
+            <a href="FAQs.md" type="offer" summary="Solutions to common issues">FAQ</a>
             <a href="https://discord.com/invite/DrfX6286kF" type="community" summary="Chat with us on Discord">Chat</a>
         </primary>
 
