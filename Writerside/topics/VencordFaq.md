@@ -2,7 +2,7 @@
 
 <img src="https://media.discordapp.net/stickers/1039992459209490513.png" alt="wq is loading"/>
 
-## Before starting
+### Before starting
 <p>
 Before going or reading further, make sure that you have
 installed <format color="red">C H I L L A X </format>
@@ -81,7 +81,7 @@ See the below screenshots:
     * Optionally adjust the `--font-size` if you need to.
 
 > If the font is not working correctly, then double-check
-> the font name that you have provided in step 8.
+> the font name that you have provided in Step 8.
 > Please make sure that the font name is the same as shown by Google Font
 > during Step 5 and 6 (the font name that was shown to you when you followed Steps 5 and 6).
 > 
