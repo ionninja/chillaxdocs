@@ -88,3 +88,27 @@ See the below screenshots:
 {style="warning"}
 
 And now the new font(s) should be applied.
+
+#### Alternatively, if you want to use a downloaded font:
+
+* Host the font somewhere. [GitHub](https://www.github.com) is a good place.
+
+* For GitHub, all you have to do is create a new repo and upload the font there.
+
+* After clicking on the font file and get the **RAW** link of that.
+
+* Now just like in the previous Step 7, we import the font, but this time
+  use the **RAW** GitHub link instead of the Google font approach.
+
+```css
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+```
+
+instead, it will be
+
+```css
+    @font-face {
+        font-family: "Font Name"; /* Replace with the name of the font here */
+        src: url("RAW GitHub Link"); /* Replace with the hosted github raw link*/
+    }
+```
