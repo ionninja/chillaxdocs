@@ -112,3 +112,132 @@ instead, it will be
     src: url("RAW GitHub Link"); /* Replace with the hosted github raw link*/
 }
 ```
+
+### 3. How to change the font size?
+
+* Go to `Settings` > `Themes` > `Edit Quick CSS`.
+
+* Find the css variable `--font-size` and change it to your needs.
+
+That's it.
+
+### 4. How to change the accent color (*The Below **RED** thing/part* see attached screenshot)?
+
+<img src="mention_stuff.png" alt="wq is loading" border-effect="rounded"/>
+
+* Go to `Settings` > `Themes` > `Edit Quick CSS`.
+
+* Find the css variables `--accentcolor`, `--accentcolor2` and change them to your needs.
+
+* You may want to play around with them to find the right balance.
+
+> Must-need to change both for it to take full effect.
+>
+> **Note**: `--accentcolor` is for [rgb](https://rgbcolorpicker.com/) and `--accentcolor2` is
+> for [hex](https://colors-picker.com/hex-color-picker/).
+
+{style="warning"}
+
+### 5. How to change the theme welcome username?
+
+* Go to `Settings` > `Themes` > `Edit Quick CSS`.
+
+* Find the css variables `--user-name` and change it.
+
+### 6. How to make it so that desktop `wallpaper/wallpaper engine's` wallpaper is visible through?
+
+> **We recommend you to not go for that**
+
+{style="warning"}
+
+However, if you have decided to make up your mind, then
+
+* Go to `Settings` > `Vencord` > `Enable Window Transparency` and turn it on.
+
+* Now `Settings` > `Themes` > `Edit Quick CSS` and remove `--wallpaper` css variable
+  mentioned in [here](#1-how-to-change-the-background-background-image-of-chillax).
+
+* Your window should now be `transparent` or `see through` etc.
+
+* Now you may want to add a bit of blur to make things readable in the `container__037ed`.
+  However, discord uses electron, and we have found it to work differently on different
+  OS, and the window manager of your OS also plays a vital role here.
+  So, the below css snippet may or may not work properly (Translucence is enabled in
+  window manager level).
+  In case it does not work, it will at least make the `container__037ed`
+  basically that region a bit darker.
+  ```css
+    .container__037ed {
+          background-color: rgba(255, 255, 255, 0) !important; /* Semi-transparent white for light theme */
+          /* Or use this for dark theme: background-color: rgba(0, 0, 0, 0.1); */
+          backdrop-filter: blur(1px) !important; /*Blur the background*/
+          border-radius: 10px; /* Rounded corners */
+          /* Or use this for dark theme: border: 1px solid rgba(0, 0, 0, 0.2); */
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important; /* Optional: Add a box shadow for depth */
+    }
+  ```
+
+> **Note**: *Linux users this may be a hit or miss due to infinite number of factors
+> (Too many DEs, WMs & Display Protocols).*
+> But using WM you can **natively add/force** translucence
+> at window level
+> (i.e. [hyprland](https://hyprland.org/),
+> [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.),
+> and you won't have to do any of the above-mentioned things.
+> 
+{style="note"}
+
+### 7. How to change the font of the group chat?
+
+* We have already mentioned how you can import a custom font and
+  use it [here](#2-how-to-change-use-another-font-s).
+
+* Now use the below css snippet (*pate it at the **very bottom***): 
+> If the below css does not work,
+> then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
+> the [Support Discord Server](https://discord.gg/DrfX6286kF).
+
+{style="note"}
+
+  ```css
+    /* Reset groupchat name font */
+    .input_f8b740 {
+        font-family: var(--font-name) !important; /* Write the font name here */
+        font-weight: inherit !important; /* Self explanatory */
+    }
+  ```
+* If you want, you can replace `var(--font-name)` with your custom font name
+  if you are planning on using multiple fonts at once.
+
+### 8. CHILLAX is laggy or slow, very slow, any fix?
+
+* Make sure that **Hardware Acceleration** is on.
+  If not, then turn it on.
+
+* The steps are first `settings`, then `Advance` and then turn on `Hardware Acceleration`.
+
+*Almost 99% of the time this is the reason behind lag.*
+
+If you are on a system that is not older than six or seven years,
+the theme should work fine without any lag.
+
+However, as a last resort you can
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* [Uncomment](https://developer.mozilla.org/en-US/docs/Web/CSS/Comments) line `37` different/or which
+  says `/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/`
+  See the below screenshots:
+
+1.  <img src="lag_stuff_1.png" alt="whatever" border-effect="rounded"/>
+
+    * Uncomment this line, and it should look something like the below
+      screenshot:
+
+2.  <img src="lag_stuff_2.png" alt="whatever" border-effect="rounded"/>
+
+* This should make it a little less laggy.
+
+Consequently, you can try out [OpenAsar](https://openasar.dev/) which is part
+of the [Vencord installer](https://github.com/Vencord/Installer/issues/11).
+This should give a bit more performance boost.
