@@ -184,7 +184,7 @@ However, if you have decided to make up your mind, then
 > (i.e. [hyprland](https://hyprland.org/),
 > [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.),
 > and you won't have to do any of the above-mentioned things.
-> 
+>
 {style="note"}
 
 ### 7. How to change the font of the group chat?
@@ -192,7 +192,8 @@ However, if you have decided to make up your mind, then
 * We have already mentioned how you can import a custom font and
   use it [here](#2-how-to-change-use-another-font-s).
 
-* Now use the below css snippet (*pate it at the **very bottom***): 
+* Now use the below css snippet (*pate it at the **very bottom***):
+
 > If the below css does not work,
 > then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
 > the [Support Discord Server](https://discord.gg/DrfX6286kF).
@@ -201,11 +202,12 @@ However, if you have decided to make up your mind, then
 
   ```css
     /* Reset groupchat name font */
-    .input_f8b740 {
-        font-family: var(--font-name) !important; /* Write the font name here */
-        font-weight: inherit !important; /* Self explanatory */
-    }
+.input_f8b740 {
+    font-family: var(--font-name) !important; /* Write the font name here */
+    font-weight: inherit !important; /* Self explanatory */
+}
   ```
+
 * If you want, you can replace `var(--font-name)` with your custom font name
   if you are planning on using multiple fonts at once.
 
@@ -241,3 +243,128 @@ However, as a last resort you can
 Consequently, you can try out [OpenAsar](https://openasar.dev/) which is part
 of the [Vencord installer](https://github.com/Vencord/Installer/issues/11).
 This should give a bit more performance boost.
+
+### 9. How to make the member list always stay visible instead of on hover?
+
+This is basically an addon; to remove it:
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* **Remove** or **comment out** the line (*currently line number `33` and maybe different in your case*) containing
+  `@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");`.
+  Now the member list will always be visible instead of on hover.
+  See the below screenshots:
+
+1.  <img src="always_visible_member_list.png" alt="wq is loading" border-effect="rounded"/>
+
+    * Now remove/comment out this line.
+
+2.  <img src="commented_out.png" alt="wq is loading" border-effect="rounded"/>
+
+    * Finally, you should have something like this:
+
+3.  <img src="results.png" alt="wq is loading" border-effect="rounded"/>
+
+### 10. How to get back the old emojis?
+
+This is also very similar to the previous [FAQ](#8-chillax-is-laggy-or-slow-very-slow-any-fix).
+This thing is also an addon.
+Remove it to get back default emojis:
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* **Remove** or **comment out** the line (*currently line number `29` and maybe different in your case*) containing
+  `@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");`.
+
+* Now you should have the old emojis.
+
+### 11. How to get rid of the Folder Icons and Make it like the old discord?
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* **Remove** or **comment out** the line (*currently line number `34` and maybe different in your case*) containing
+  `@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");`.
+
+* Now it should be normal like the old discord.
+
+### 12. How to get rid of the below-attached ugly thing?
+
+<img src="ugly_writing_white_bg.png" alt="wq is loading" border-effect="rounded"/>
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* Now the use/paste below css snippet at the very end:
+
+> If the below css does not work,
+> then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
+> the [Support Discord Server](https://discord.gg/DrfX6286kF).
+
+{style="tip"}
+
+If you are using dark mode, then the below css snippet
+
+```css
+    /* hide message in the sidebar when using dark mode */
+.theme-dark .sidebar_a4d4d9 .content_eed6a8:after {
+    color: rgba(255, 255, 255, 0) !important;
+    text-shadow: none !important;
+}
+```
+
+Or, if you are using light mode, then the below css snippet
+
+```css
+    /* hide message in the sidebar when using light mode */
+.theme-light .sidebar_a4d4d9 .content_eed6a8:after {
+    color: rgba(255, 255, 255, 0) !important;
+    text-shadow: none !important;
+}
+```
+
+* Now it should be a bit better.
+
+### 13. How to use dark/light mode in Chillax Theme?
+
+You can enable `dark` or `light` mode from the Discord Settings.
+Steps are:
+
+* Now go to `Settings` > `Appearance`.
+
+* Finally, choose either light mode or dark mode based on your preference,
+  and Chillax will reflect that.
+
+### 14. After applying Chillax theme it looks funny and/or transparent/see through background is missing, what to do?
+
+Before applying the theme:
+
+* Firstly, make sure that there is **no custom** css or css snippet(s) is/are running.
+
+* Secondly, make sure that no party plugin related to theming
+  is running (*if debugging, disable all plugins for quicker conclusion*).
+
+* Thirdly, `Settings` > `Appearance` is set to either Dark or light mode.
+
+* Now apply the Latest version
+  of [Chillax](https://raw.githubusercontent.com/warrayquipsome/Chillax/main/chillax.theme.css).
+
+* Now you should have Chillax with the default look and feel.
+
+### 15. How to get rid of the mobile icon besides the avatar?
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* Now to the line `92` or find the line that says `--rs-phone-visible: block;` and
+  change this line to the below line:
+
+    ```css
+        --rs-phone-visible: none;
+    ```
+
+* Now mobile icon or phone icon should be gone.
+
+## Still Have Question(s)? 
+Join our support
+<format color="orange">
+        [Discord Server](https://discord.com/invite/DrfX6286kF)
+</format>
+and ask for help and do not be <control>shy.</control>
