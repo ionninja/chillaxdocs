@@ -3,6 +3,7 @@
 <img src="https://media.discordapp.net/stickers/1039992459209490513.png" alt="wq is loading"/>
 
 ### Before starting
+
 <p>
 Before going or reading further, make sure that you have
 installed <format color="red">C H I L L A X </format>
@@ -49,7 +50,6 @@ Now your favourite background image/gif should be applied.
 
 {style="note"}
 
-
 ### 2. How to change/use another font(s)?
 
 First, make sure that the font you are trying to
@@ -84,7 +84,7 @@ See the below screenshots:
 > the font name that you have provided in Step 8.
 > Please make sure that the font name is the same as shown by Google Font
 > during Step 5 and 6 (the font name that was shown to you when you followed Steps 5 and 6).
-> 
+>
 {style="warning"}
 
 And now the new font(s) should be applied.
@@ -108,7 +108,7 @@ instead, it will be
 
 ```css
     @font-face {
-        font-family: "Font Name"; /* Replace with the name of the font here */
-        src: url("RAW GitHub Link"); /* Replace with the hosted github raw link*/
-    }
+    font-family: "Font Name"; /* Replace with the name of the font here */
+    src: url("RAW GitHub Link"); /* Replace with the hosted github raw link*/
+}
 ```
