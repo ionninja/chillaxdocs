@@ -364,7 +364,7 @@ Before applying the theme:
 
 ## Still Have Question(s)? 
 Join our support
-<format color="orange">
+<format color="#ffA36b">
         [Discord Server](https://discord.com/invite/DrfX6286kF)
 </format>
 and ask for help and do not be <control>shy.</control>
