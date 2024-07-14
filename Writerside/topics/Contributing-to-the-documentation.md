@@ -38,10 +38,10 @@ results in <shortcut>Ctrl + \\</shortcut>
 
 <!-- ```markdown -->
 ```
-<ui-path>File | New | LaTeX File</ui-path>
+<ui-path>File | New | CSS File</ui-path>
 ```
 
-results in <ui-path>File | New | LaTeX File</ui-path>
+results in <ui-path>File | New | CSS File</ui-path>
 
 * Reference elements like [headings on the same page](#writerside-syntax-overview):
 
