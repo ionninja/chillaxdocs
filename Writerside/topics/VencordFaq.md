@@ -362,7 +362,21 @@ Before applying the theme:
 
 * Now mobile icon or phone icon should be gone.
 
-## Still Have Question(s)? 
+### 16. How to change the color of urls/links?
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* Now apply the below css snippet, which will change the color of every
+  url to the color of your choice.
+
+```css
+    [href^="http://"], [href^="https://"], [href^="www."] {
+        color: #30d944 !important; /* change it to whatever you like */
+    }
+```
+
+## Still Have Question(s)?
+
 Join our support
 <format color="#ffA36b">
         [Discord Server](https://discord.com/invite/DrfX6286kF)
