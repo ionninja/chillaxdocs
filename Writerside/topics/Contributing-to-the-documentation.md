@@ -7,7 +7,7 @@ If you want to edit it, you can click the <control>Edit page</control> button.
 
 Then, you will be taken to GitHub where you can edit the page.
 Once you are done, click <control>Commit Changes</control> and create a pull request.
-<format color="Aquamarine">However, if possible please talk with us on
+<format color="BlueViolet">However, if possible please talk with us on
     <format color="DarkOrange">
         <a href="https://discord.com/invite/DrfX6286kF">discord</a>
     </format>
