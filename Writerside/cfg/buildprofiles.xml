@@ -1,9 +1,9 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://helpserver.labs.jb.gg/help/schemas/mvp/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <variables>
-        <algolia-id>TBA</algolia-id>
-        <algolia-index>C H I L L A X Theme</algolia-index>
-        <algolia-api-key>TBA</algolia-api-key>
+        <algolia-id>VNKPWW3QH4</algolia-id>
+        <algolia-index>chillax</algolia-index>
+        <algolia-api-key>04b3f007dc0a147ac10abd5c4c419bae</algolia-api-key>
         <!--        <config-search-scopes-provider>https://www.jetbrains.com/</config-search-scopes-provider>-->
         <noindex-content>false</noindex-content>
         <enable-browser-edits>true</enable-browser-edits>
