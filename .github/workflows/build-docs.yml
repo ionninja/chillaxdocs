@@ -13,12 +13,12 @@ env:
   INSTANCE: 'Writerside/chillax-docs'
   ARTIFACT: 'webHelpCHILLAX-DOCS2-all.zip'
   DOCKER_VERSION: '241.16003'
-  ALGOLIA_ARTIFACT: 'algolia-indexes-chillax-docs.zip'
+  ALGOLIA_ARTIFACT: 'algolia-indexes-CHILLAX-DOCS.zip'
   ALGOLIA_APP_NAME: 'VNKPWW3QH4'
   ALGOLIA_INDEX_NAME: 'chillax'
   ALGOLIA_KEY: '${{ secrets.ALGOLIA_KEY }}'
   CONFIG_JSON_PRODUCT: 'chillax-docs'
-  CONFIG_JSON_VERSION: '1.0'
+  CONFIG_JSON_VERSION: '0.7.1'
 
 jobs:
   build:
