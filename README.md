@@ -10,6 +10,9 @@
             </a>
             <br/>
         </div>
+            <a href="https://github.com/Chillax-ORG/chillaxdocs/actions/workflows/build-docs.yml" target="_blank">
+                <img src="https://github.com/Chillax-ORG/chillaxdocs/actions/workflows/build-docs.yml/badge.svg" alt="wq"/>
+            </a>
         <hr width="250px"/>
     </div>
 </h1>
