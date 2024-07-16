@@ -5,10 +5,10 @@
 ### Before starting
 
 <p>
-Before going or reading further, make sure that you have
-installed <format color="red">C H I L L A X </format>
-follwoing the instructions given in
-<a href="Installation-guide.md">Installation Guide</a> for Vencord.
+    Before going or reading any further, make sure that you have
+    installed <format color="red">C H I L L A X </format>
+    follwoing the instructions given in
+    <a href="Installation-guide.md">Installation Guide</a> for Vencord.
 </p>
 
 ### 1. How to change the background/background image of CHILLAX?
