@@ -22,10 +22,10 @@
 > Still, this is a work in progress and currently at a very
 > early stage of development.
 > As a result, please read with cation or refer to the old one
-> still this reaches stability.
-
+> till this reaches stability.
 
 # Acknowledgement
+
 This project utilized the [TeXiFy-IDEA](https://github.com/Hannah-Sten/TeXiFy-IDEA)
 [Writerside](https://github.com/Hannah-Sten/TeXiFy-IDEA/tree/56b74c73f448b4562f9b23ef6258ef36d8353837/Writerside)
 as the [Writerside](https://www.jetbrains.com/writerside/) project template.
