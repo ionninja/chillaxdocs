@@ -17,7 +17,7 @@
         <download-page>https://github.com/warrayquipsome/Chillax/blob/main/chillax.theme.css</download-page>
         <showDownloadButton>true</showDownloadButton>
         <og-image>https://raw.githubusercontent.com/Chillax-ORG/Images/main/white.png</og-image>
-        <og-twitter>@onwriterside</og-twitter>
+        <resizable-sidebar>true</resizable-sidebar>
     </variables>
     <build-profile instance="chillax-docs"/>
     <sitemap priority="0.35" change-frequency="weekly"/>
