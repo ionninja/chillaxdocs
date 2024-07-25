@@ -18,7 +18,7 @@ to customize it to your likings.
 
 ### Installation instructions for BetterDiscord {switcher-key="BetterDiscord"}
 
-To download the theme in [Better Discord](https://betterdiscord.app/theme/Chillax) Site:
+To download the theme in [Better Discord](https://betterdiscord.app)
 
 <procedure title="Our first recommendation way to install C H I L L A X on BetterDiscord is:" id="better-discord">
    <step>
