@@ -6,19 +6,17 @@
   <img src="chillaxcover.png" alt="whatever"/>
 </tldr>
 
-To use CHILLAX there are mainly two ways:
-
 <procedure title="To use CHILLAX there are mainly two ways:" id="procedure-id">
    <step>Firstly, you can use any client mod like <a href="https://vencord.dev">Vencord</a>
-         or <a href="https://betterdiscord.app/">BetterDiscord</a>.
+         or <a href="https://betterdiscord.app/">BetterDiscord</a> and then apply/install the theme.
   </step>
    <step>
-      Secondly install or inject CHILLAX as would any another theme.
+      Secondly, you can inject CHILLAX on browser using any of the CSS injectors.
   </step>
    <p>Congratulation! You now have chillax!</p>
-  <p>
-    Need more help? Checkout <a href="Installation-guide.md">Installation-guide</a> !
-  </p>
+   <p>
+     Need more help? Checkout <a href="Installation-guide.md">Installation-guide</a> !
+   </p>
 </procedure>
 
 While not strictly necessary, the following things are highly recommended.
