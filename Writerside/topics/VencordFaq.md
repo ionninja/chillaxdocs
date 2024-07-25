@@ -195,7 +195,7 @@ However, if you have decided to make up your mind, then
 * We have already mentioned how you can import a custom font and
   use it [here](#2-how-to-change-use-another-font-s).
 
-* Now use the below css snippet (*pate it at the **very bottom** of the `Edit Quick CSS`*):
+* Now use the below css snippet (*paste it at the **very bottom** of the `Edit Quick CSS`*):
 
 > If the below css does not work,
 > then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
