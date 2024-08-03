@@ -2,12 +2,16 @@
 <!DOCTYPE labels SYSTEM "https://resources.jetbrains.com/writerside/1.0/labels-list.dtd">
 <labels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/labels.xsd">
-    <primary-label id="p-level" short-name="G" name="Label" color="blue">
-        This is an example label
+    <primary-label id="stable" short-name="S" name="Stable" color="blue">
+        This topic is stable and it will see fewer changes
+    </primary-label>
+
+    <primary-label id="half-done" short-name="H" name="Half Done" color="strawberry">
+        Vencord is done and BetterDiscord is yet to be finished
     </primary-label>
 
     <primary-label id="incomplete" short-name="I" name="Incomplete" color="red">
-        This topic is yet to be written. PRs are always welcome!
+        This topic is yet to be written. PRs are always welcome :)
     </primary-label>
 
     <primary-label id="jetbrains" short-name="JB" name="JetBrains" href="https://www.jetbrains.com" color="red">
@@ -15,7 +19,7 @@
     </primary-label>
 
     <secondary-label id="wip" name="WIP" color="purple">Work in progress</secondary-label>
-    <secondary-label id="alpha" name="α" color="strawberry">Alpha</secondary-label>
+    <secondary-label id="alpha" name="α" color="blue">Alpha</secondary-label>
     <secondary-label id="beta" name="β" color="tangerine">Beta</secondary-label>
 
     <secondary-label id="experimental" name="Experimental" color="purple">This is an experimental feature</secondary-label>

@@ -1,5 +1,8 @@
 # Quick start guide
 
+<primary-label ref="stable"/>
+<secondary-label ref="beta"/>
+
 <tldr>
   <p>Install the CHILLAX theme in your favourite client mod and enjoy!</p>
   <p>Optionally, configure change the css variables to make it look nicer :)</p>

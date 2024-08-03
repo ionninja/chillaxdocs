@@ -4,6 +4,9 @@ switcher-label: Client Mod
 
 # Installation guide
 
+<primary-label ref="stable"/>
+<secondary-label ref="alpha"/>
+
 Welcome to the detailed installation guide of CHILLAX.
 
 > Before reading this page, select your client mod in the menu at the top of this page.

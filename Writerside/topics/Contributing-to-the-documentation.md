@@ -1,4 +1,6 @@
 # Contributing to the documentation
+<primary-label ref="stable"/>
+<secondary-label ref="beta"/>
 
 This documentation project uses Writerside.
 If you want to edit it, you can click the <control>Edit page</control> button.
