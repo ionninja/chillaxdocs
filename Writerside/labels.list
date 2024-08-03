@@ -10,6 +10,10 @@
         Vencord is done and BetterDiscord is yet to be finished
     </primary-label>
 
+    <primary-label id="advanced-users-only" short-name="AU" name="Advanced Users Only" color="red">
+        Advanced users only
+    </primary-label>
+
     <primary-label id="incomplete" short-name="I" name="Incomplete" color="red">
         This topic is yet to be written. PRs are always welcome :)
     </primary-label>
