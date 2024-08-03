@@ -1,4 +1,5 @@
 # FAQ Vencord Edition
+
 <primary-label ref="stable"/>
 <secondary-label ref="beta"/>
 
@@ -376,8 +377,8 @@ Before applying the theme:
 
 ```css
     [href^="http://"], [href^="https://"], [href^="www."] {
-        color: #30d944 !important; /* change it to whatever you like */
-    }
+    color: #30d944 !important; /* change it to whatever you like */
+}
 ```
 
 ## Still Have Question(s)?

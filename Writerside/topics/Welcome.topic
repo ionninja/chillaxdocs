@@ -9,20 +9,24 @@
         <description>A discord client mod theme</description>
         <spotlight>
             <a href="Quick-start-guide.md" type="start" summary="Quick guide for C H I L L A X"/>
-            <a href="Installation-guide.md" type="install" summary="Detailed installation instructions for client mods (Vencord and BetterDiscord)"/>
+            <a href="Installation-guide.md" type="install"
+               summary="Detailed installation instructions for client mods (Vencord and BetterDiscord)"/>
         </spotlight>
 
         <primary>
             <title>Help and support</title>
-            <a href="https://github.com/warrayquipsome/Chillax/issues" type="idea" summary="Start a discussion, propose an idea, ask a question">Getting help</a>
+            <a href="https://github.com/warrayquipsome/Chillax/issues" type="idea"
+               summary="Start a discussion, propose an idea, ask a question">Getting help</a>
             <a href="FAQs.md" type="offer" summary="Solutions to common issues">FAQ</a>
             <a href="https://discord.com/invite/DrfX6286kF" type="community" summary="Chat with us on Discord">Chat</a>
         </primary>
 
         <secondary>
             <title>Promo</title>
-            <a href="https://github.com/warrayquipsome/Chillax" type="branch" summary="Give us a star and a follow">Source Code</a>
-            <a href="https://github.com/Chillax-ORG" type="network" summary="Checkout our org and give us a follow">Chillax Org</a>
+            <a href="https://github.com/warrayquipsome/Chillax" type="branch" summary="Give us a star and a follow">Source
+                Code</a>
+            <a href="https://github.com/Chillax-ORG" type="network" summary="Checkout our org and give us a follow">Chillax
+                Org</a>
             <a href="https://github.com/Inmoresentum" type="filtering" summary="Hey, don't forget about me!">:)</a>
         </secondary>
     </section-starting-page>

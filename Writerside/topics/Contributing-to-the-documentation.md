@@ -1,4 +1,5 @@
 # Contributing to the documentation
+
 <primary-label ref="stable"/>
 <secondary-label ref="beta"/>
 
@@ -22,14 +23,17 @@ Once you are done, click <control>Commit Changes</control> and create a pull req
 
 ## About Writerside
 
-The Writerside documentation can be found at [Writerside | JetBrains Marketplace](https://plugins.jetbrains.com/plugin/20158-writerside/docs).
+The Writerside documentation can be found
+at [Writerside | JetBrains Marketplace](https://plugins.jetbrains.com/plugin/20158-writerside/docs).
 
 ### Writerside syntax overview
+
 Writerside syntax is based on Markdown, but with some extra features.
 
 * Display keyboard shortcuts:
 
 <!-- ```markdown -->
+
 ```
 <shortcut>Ctrl + \\</shortcut>
 ```
@@ -39,6 +43,7 @@ results in <shortcut>Ctrl + \\</shortcut>
 * Display menu selections:
 
 <!-- ```markdown -->
+
 ```
 <ui-path>File | New | CSS File</ui-path>
 ```
@@ -48,6 +53,7 @@ results in <ui-path>File | New | CSS File</ui-path>
 * Reference elements like [headings on the same page](#writerside-syntax-overview):
 
 <!-- ```markdown -->
+
 ```
 [Refer to](#my-heading)
 
@@ -57,6 +63,7 @@ results in <ui-path>File | New | CSS File</ui-path>
 * Reference [other pages](Contributing-to-the-source-code.md):
 
 <!-- ```markdown -->
+
 ```
 [Other page](Contributing-to-the-source-code.md)
 ```
@@ -64,6 +71,7 @@ results in <ui-path>File | New | CSS File</ui-path>
 * To include images/gifs, put them in the `images` directory, possibly in a subdirectory, and use
 
 <!-- ```markdown -->
+
 ```
 ![My Image](my-image.png)
 ```
