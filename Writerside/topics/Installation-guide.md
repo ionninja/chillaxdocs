@@ -47,7 +47,7 @@ To download the theme in [Better Discord](https://betterdiscord.app)
 
 And if you want a YouTube tutorial, check out the below one
 
-<video src="https://youtu.be/U0tTENsBS4w"/>
+<video src="https://youtu.be/U0tTENsBS4w" preview-src="chillax-faq-logo.png"/>
 
 ### Installation instructions for Vencord {switcher-key="Vencord"}
 
