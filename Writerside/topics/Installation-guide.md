@@ -23,7 +23,7 @@ to customize it to your likings.
 
 To download the theme in [Better Discord](https://betterdiscord.app)
 
-<procedure title="Our first recommendation way to install C H I L L A X on BetterDiscord is:" id="better-discord">
+<procedure title="Our first recommended way to install C H I L L A X on BetterDiscord is:" id="better-discord">
    <step>
         Go to <a href="https://betterdiscord.app/theme/Chillax">BetterDiscord C H I L L A X</a>.
    </step>
@@ -31,7 +31,7 @@ To download the theme in [Better Discord](https://betterdiscord.app)
         Press the blue download button.
    </step>
    <step>
-        Open your Discord and go <ui-path>User Settings > Themes > Open Themes Folder</ui-path>.
+        Open your Discord and go to <ui-path>User Settings > Themes > Open Themes Folder</ui-path>.
    </step>
    <step>
         Drag the <format style="bold">chillax.theme.css</format> file you just downloaded into the theme folder that opened.

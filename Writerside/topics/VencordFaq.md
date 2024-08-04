@@ -363,7 +363,7 @@ Before applying the theme:
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* Now to the line `92` or find the line that says `--rs-phone-visible: block;` and
+* Now go to the line `92` or find the line that says `--rs-phone-visible: block;` and
   change this line to the below line:
 
     ```css
