@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PDF (chillax-docs)" type="StardustRunConfiguration" factoryName="build-pdf">
+    <option name="addCover" value="true" />
+    <option name="addFooter" value="true" />
+    <option name="addHeader" value="true" />
+    <option name="copyright" value="2024 Chillax ORG" />
+    <option name="description" value="Experience tranquility with our calm, customizable Discord theme. Dive into a serene environment and personalize your interface with a variety of soothing options. Tailor features to your preferences and unlock new functionalities effortlessly, creating a Discord experience that's uniquely yours." />
+    <option name="folderPath" value="$PROJECT_DIR$" />
+    <option name="footer" value="By Inmoresentum" />
+    <option name="header" value="Chillax Docs" />
+    <option name="instanceId" value="chillax-docs" />
+    <option name="instanceName" value="C H I L L A X" />
+    <option name="layout" value="Linux" />
+    <option name="logoPath" value="$PROJECT_DIR$/Writerside/images/chillax/chillaxlogodark.png" />
+    <option name="title" value="CHILLAX Theme Documentation" />
+    <method v="2" />
+  </configuration>
+</component>
