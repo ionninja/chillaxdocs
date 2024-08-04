@@ -24,7 +24,7 @@ Once you are done, click <control>Commit Changes</control> and create a pull req
 ## About Writerside
 
 The Writerside documentation can be found
-at [Writerside | JetBrains Marketplace](https://plugins.jetbrains.com/plugin/20158-writerside/docs).
+at [Writerside | JetBrains Marketplace](https://www.jetbrains.com/help/writerside/discover-writerside.html).
 
 ### Writerside syntax overview
 
