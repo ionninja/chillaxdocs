@@ -6,7 +6,7 @@
 <tldr>
   <p>Install the CHILLAX theme in your favourite client mod and enjoy!</p>
   <p>Optionally, configure change the css variables to make it look nicer :)</p>
-  <img src="chillaxcover.png" alt="whatever"/>
+  <img src="chillaxcover.png" alt="Chillax cover art (supports both dark and light mode)"/>
 </tldr>
 
 <procedure title="To use CHILLAX there are mainly two ways:" id="procedure-id">

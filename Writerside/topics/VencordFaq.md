@@ -3,7 +3,7 @@
 <primary-label ref="stable"/>
 <secondary-label ref="beta"/>
 
-<img src="https://media.discordapp.net/stickers/1039992459209490513.png" alt="wq is loading"/>
+<img src="https://media.discordapp.net/stickers/1039992459209490513.png" alt="Vencord Logo"/>
 
 ### Before starting
 
@@ -23,11 +23,11 @@ for installation as this is part of the Vencord itself*) code editor.
 Now using this Editor, you can easily edit css with hot reloading.
 See the below-attached screenshots:
 
-1. <img src="go_to_settings.png" alt="whatever" border-effect="rounded"/>
+1. <img src="go_to_settings.png" alt="How to go to Settings" border-effect="rounded"/>
 
-2. <img src="edit_quick_css.png" alt="whatever" border-effect="rounded"/>
+2. <img src="edit_quick_css.png" alt="Where to find `Edit Quick CSS`" border-effect="rounded"/>
 
-3. <img src="monaco_editor.png" alt="whatever" border-effect="rounded"/>
+3. <img src="monaco_editor.png" alt="Monaco editor" border-effect="rounded"/>
 
 Now to go to line number `46` (*at the time of writing, the line number
 is 46 which in a later version might change*) or where the variable `--wallpaper`
@@ -42,7 +42,7 @@ to the **wallpaper**/**gif** **cdn url** that you want to set.
 
 See the below screenshots:
 
-<img src="bg_change.png" alt="whatever" border-effect="rounded"/>
+<img src="bg_change.png" alt="The place where to change the url" border-effect="rounded"/>
 
 Now your favourite background image/gif should be applied.
 
@@ -63,23 +63,23 @@ From there, choose the font you are looking for and adjust all the settings
 and everything (*font weights, size, etc.*) and then copy the css import url.
 See the below screenshots:
 
-1. <img src="font_change_1.png" alt="wq is loading" border-effect="rounded"/>
+1. <img src="font_change_1.png" alt="Search for a font that you like" border-effect="rounded"/>
 
-2. <img src="font_change_2.png" alt="wq is loading" border-effect="rounded"/>
+2. <img src="font_change_2.png" alt="Click on `Get Font`" border-effect="rounded"/>
 
-3. <img src="font_change_3.png" alt="wq is loading" border-effect="rounded"/>
+3. <img src="font_change_3.png" alt="Now click on get embedded code" border-effect="rounded"/>
 
-4. <img src="font_change_4.png" alt="wq is loading" border-effect="rounded"/>
+4. <img src="font_change_4.png" alt="Select the CSS Import Option" border-effect="rounded"/>
 
-5. <img src="font_change_5.png" alt="wq is loading" border-effect="rounded"/>
+5. <img src="font_change_5.png" alt="Now it should look something similar to the way it is shown" border-effect="rounded"/>
 
-6. <img src="font_change_6.png" alt="wq is loading" border-effect="rounded"/>
+6. <img src="font_change_6.png" alt="Copy the CSS import url and notice the font name" border-effect="rounded"/>
     * Only copy the highlighted part.
       In your case, the link can be different.
-7. <img src="font_change_7.png" alt="wq is loading"/>
+7. <img src="font_change_7.png" alt="Now paste the copied link at the very top as shown"/>
     * Now go to <ui-path> Settings > Themes > Edit Quick CSS</ui-path>.
     * Paste the copied link at the top just like the above screenshot and put the `;` at the end of it.
-8. <img src="font_change_8.png" alt="wq is loading"/>
+8. <img src="font_change_8.png" alt="Change the font name"/>
     * Now change the `--font-nane` to the name of the font that you have
       just imported.
     * Optionally adjust the `--font-size` if you need to.
@@ -128,7 +128,7 @@ That's it.
 
 ### 4. How to change the accent color (*The Below **RED** thing/part* see attached screenshot)? {collapsible="true" default-state="expanded"}
 
-<img src="mention_stuff.png" alt="wq is loading" border-effect="rounded"/>
+<img src="mention_stuff.png" alt="Accent color" border-effect="rounded"/>
 
 * Go to <ui-path> Settings > Themes > Edit Quick CSS</ui-path>.
 
@@ -241,12 +241,12 @@ However, as a last resort you can
   says `/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/`
   See the below screenshots:
 
-1.  <img src="lag_stuff_1.png" alt="whatever" border-effect="rounded"/>
+1.  <img src="lag_stuff_1.png" alt="Uncomment the shown line (CSS code)" border-effect="rounded"/>
 
     * Uncomment this line, and it should look something like the below
       screenshot:
 
-2.  <img src="lag_stuff_2.png" alt="whatever" border-effect="rounded"/>
+2.  <img src="lag_stuff_2.png" alt="Uncomment the shown line (CSS code)" border-effect="rounded"/>
 
 * This should make it a little less laggy.
 
@@ -265,15 +265,15 @@ This is basically an addon; to remove it:
   Now the member list will always be visible instead of on hover.
   See the below screenshots:
 
-1.  <img src="always_visible_member_list.png" alt="wq is loading" border-effect="rounded"/>
+1.  <img src="always_visible_member_list.png" alt="CSS import that styles the member list" border-effect="rounded"/>
 
     * Now remove/comment out this line.
 
-2.  <img src="commented_out.png" alt="wq is loading" border-effect="rounded"/>
+2.  <img src="commented_out.png" alt="Comment out this line as shown" border-effect="rounded"/>
 
     * Finally, you should have something like this:
 
-3.  <img src="results.png" alt="wq is loading" border-effect="rounded"/>
+3.  <img src="results.png" alt="Always visible member list" border-effect="rounded"/>
 
 ### 10. How to get back the old emojis? {collapsible="true" default-state="expanded"}
 
@@ -299,7 +299,7 @@ Remove it to get back default emojis:
 
 ### 12. How to get rid of the below-attached ugly thing? {collapsible="true" default-state="expanded"}
 
-<img src="ugly_writing_white_bg.png" alt="wq is loading" border-effect="rounded"/>
+<img src="ugly_writing_white_bg.png" alt="Apology text" border-effect="rounded"/>
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
