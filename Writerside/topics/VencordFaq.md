@@ -20,7 +20,7 @@ The steps are first `settings`, then go to the `VENCORD` Section and then `Theme
 Finally, click `Edit Quick CSS` which should open the integrated
 [Monaco](https://microsoft.github.io/monaco-editor/) (*It's already there no need
 for installation as this is part of the Vencord itself*) code editor.
-Now using this Editor, you can easily edit css with hot reloading.
+Now using this Editor, you can easily edit CSS with hot reloading.
 See the below-attached screenshots:
 
 1. <img src="go_to_settings.png" alt="How to go to Settings" border-effect="rounded"/>
@@ -51,6 +51,43 @@ Now your favourite background image/gif should be applied.
 > blinking or shaking.
 > In such cases fetch a new link or download the image and host it
 > somewhere like GitHub.
+
+{style="note"}
+
+#### Procedure to host images on GitHub (*click on me to expand*): {collapsible="true"}
+
+<procedure title="To host image on GitHub" id="github-image-hosting-process">
+   <step>
+      First create a public GitHub repository with the name of your choice.
+  </step>
+   <step>
+      Once done creating the repository, add image(s)/gif(s) via the <ui-path> Add File > Upload Files</ui-path>.
+  </step>
+   <step>
+      After image uploading commit the changes and go back to the repository.
+  </step>
+   <step>
+      Now click on the image/gif that you want to set and this will take
+      you the image/gif which is now hosted on GitHub.
+  </step>
+   <step>
+      After that right-click (mouse)
+      on the image and then click on <format style="bold">Open image in a new tab</format>
+  </step>
+   <step>
+      Finally, copy the URL/Link from the browser and paste into the appropriate CSS Variable
+      described/shown earlier.
+  </step>
+   <p>Congratulation! Now you know how to host images on GitHub.</p>
+</procedure>
+
+> **Note**: If the link is not working or the image is not showing up
+> then please make sure that the link that you are using is the RAW GitHub link.
+> A typical raw GitHub link would look like `https://raw.githubusercontent.com/{username}/{repositoryname}/{branchname}/{path_to_your_file}`.
+> Notice that the link starts with `https://raw.githubusercontent.com` and then it will be
+> followed by a `\` and then your `username` etc.
+> For instance, here is an example of CHILLAX logo 
+> hosted on GitHub `https://raw.githubusercontent.com/Chillax-ORG/Images/main/mainredlogo.png`.
 
 {style="note"}
 
