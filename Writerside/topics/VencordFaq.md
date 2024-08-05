@@ -79,6 +79,7 @@ Now your favourite background image/gif should be applied.
       described/shown earlier.
   </step>
    <p>Congratulation! Now you know how to host images on GitHub.</p>
+   <p>This process not only applies to image/gif but also for virtually anything including fonts etc.</p>
 </procedure>
 
 > **Note**: If the link is not working or the image is not showing up
@@ -97,7 +98,7 @@ First, make sure that the font you are trying to
 use is already hosted somewhere if it is not already.
 Most of the time you will be using [google fonts](https://fonts.google.com/).
 From there, choose the font you are looking for and adjust all the settings
-and everything (*font weights, size, etc.*) and then copy the css import url.
+and everything (*font weights, size, etc.*) and then copy the CSS import url.
 See the below screenshots:
 
 1. <img src="font_change_1.png" alt="Search for a font that you like" border-effect="rounded"/>
@@ -130,13 +131,18 @@ See the below screenshots:
 
 And now the new font(s) should be applied.
 
-#### Alternatively, if you want to use a downloaded font:
+#### Alternatively, if you want to use a downloaded font (*click on me to expand*): {collapsible="true"}
 
 * Host the font somewhere. [GitHub](https://www.github.com) is a good place.
 
 * For GitHub, all you have to do is create a new repo and upload the font there.
 
-* After clicking on the font file, get the **RAW** **link/url** of that font file.
+* The process on how to host a font on GitHub is very similar to
+  the described procedure [here](#procedure-to-host-images-on-github-click-on-me-to-expand).
+
+* After clicking on the font file, right-click (*mouse*) on the <ui-path>RAW</ui-path> button
+  located at the right corner and then click <ui-path>Open link in a new tab</ui-path> button.
+  Finally, copy **RAW** GitHub URL/Link.
 
 * Now just like in the previous Step 7, we import the font, but this time
   use the **RAW** GitHub link instead of the Google font approach.
@@ -159,7 +165,7 @@ instead, it will be
 
 * Go to <ui-path> Settings > Themes > Edit Quick CSS</ui-path>.
 
-* Find the css variable `--font-size` and change it to your needs.
+* Find the CSS Variable `--font-size` and change it to your needs.
 
 That's it.
 
@@ -169,7 +175,7 @@ That's it.
 
 * Go to <ui-path> Settings > Themes > Edit Quick CSS</ui-path>.
 
-* Find the css variables `--accentcolor`, `--accentcolor2` and change them to your needs.
+* Find the CSS Variables `--accentcolor`, `--accentcolor2` and change them to your needs.
 
 * You may want to play around with them to find the right balance.
 
@@ -184,7 +190,7 @@ That's it.
 
 * Go to <ui-path> Settings > Themes > Edit Quick CSS</ui-path>.
 
-* Find the css variables `--user-name` and change it.
+* Find the CSS Variables `--user-name` and change it.
 
 ### 6. How to make it so that desktop `wallpaper/wallpaper engine's` wallpaper is visible through? {collapsible="true" default-state="expanded"}
 
@@ -200,7 +206,7 @@ However, if you have decided to make up your mind, then
 
 * Go to <ui-path>Settings > Vencord > Enable Window Transparency</ui-path> and turn it on.
 
-* Now <ui-path> Settings > Themes > Edit Quick CSS</ui-path> and remove the `--wallpaper` css variable
+* Now <ui-path> Settings > Themes > Edit Quick CSS</ui-path> and remove the `--wallpaper` CSS Variable
   mentioned in [here](#1-how-to-change-the-background-background-image-of-chillax).
 
 * Your window should now be `transparent` or `see through` etc.
@@ -208,7 +214,7 @@ However, if you have decided to make up your mind, then
 * Now you may want to add a bit of blur to make things readable in the `container__037ed`.
   However, discord uses electron, and we have found it to work differently on different
   OS, and the window manager of your OS also plays a vital role here.
-  So, the below css snippet may or may not work properly (*Translucence is enabled in
+  So, the below CSS snippet may or may not work properly (*Translucence is enabled in
   window manager level*).
   In case it does not work, it will at least make the `container__037ed`
   basically that region a bit darker.
@@ -239,9 +245,9 @@ However, if you have decided to make up your mind, then
 * We have already mentioned how you can import a custom font and
   use it [here](#2-how-to-change-use-another-font-s).
 
-* Now use the below css snippet (*paste it at the **very bottom** of the `Edit Quick CSS`*):
+* Now use the below CSS snippet (*paste it at the **very bottom** of the `Edit Quick CSS`*):
 
-> If the below css does not work,
+> If the below CSS does not work,
 > then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
 > the [Support Discord Server](https://discord.gg/DrfX6286kF).
 
@@ -428,4 +434,4 @@ Join our support
 <format color="#ffA36b">
         [Discord Server](https://discord.com/invite/DrfX6286kF)
 </format>
-and ask for help and do not be <control>shy.</control>
+and ask for help and do not be <control>shy</control>.
