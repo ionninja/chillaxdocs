@@ -54,7 +54,7 @@ Now your favourite background image/gif should be applied.
 
 {style="note"}
 
-#### Procedure to host images on GitHub (*click on me to expand*): {collapsible="true"}
+#### Procedure to host images on GitHub:
 
 <procedure title="To host image on GitHub" id="github-image-hosting-process">
    <step>
@@ -131,14 +131,14 @@ See the below screenshots:
 
 And now the new font(s) should be applied.
 
-#### Alternatively, if you want to use a downloaded font (*click on me to expand*): {collapsible="true"}
+#### Alternatively, if you want to use a downloaded font: 
 
 * Host the font somewhere. [GitHub](https://www.github.com) is a good place.
 
 * For GitHub, all you have to do is create a new repo and upload the font there.
 
 * The process on how to host a font on GitHub is very similar to
-  the described procedure [here](#procedure-to-host-images-on-github-click-on-me-to-expand).
+  the described procedure [here](#procedure-to-host-images-on-github).
 
 * After clicking on the font file, right-click (*mouse*) on the <ui-path>RAW</ui-path> button
   located at the right corner and then click <ui-path>Open link in a new tab</ui-path> button.
