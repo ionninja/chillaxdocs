@@ -14,7 +14,7 @@
     <a href="Installation-guide.md">Installation Guide</a> for Vencord.
 </p>
 
-### 1. How to change the background/background image of CHILLAX? {collapsible="true" default-state="expanded"}
+### 1. How to change the background/background image of CHILLAX?
 
 The steps are first `settings`, then go to the `VENCORD` Section and then `Themes`.
 Finally, click `Edit Quick CSS` which should open the integrated
@@ -92,7 +92,7 @@ Now your favourite background image/gif should be applied.
 
 {style="note"}
 
-### 2. How to change/use another font(s)? {collapsible="true" default-state="expanded"}
+### 2. How to change/use another font(s)?
 
 First, make sure that the font you are trying to
 use is already hosted somewhere if it is not already.
@@ -161,7 +161,7 @@ instead, it will be
 }
 ```
 
-### 3. How to change the font size? {collapsible="true" default-state="expanded"}
+### 3. How to change the font size?
 
 * Go to <ui-path> Settings > Themes > Edit Quick CSS</ui-path>.
 
@@ -169,7 +169,7 @@ instead, it will be
 
 That's it.
 
-### 4. How to change the accent color (*The Below **RED** thing/part* see attached screenshot)? {collapsible="true" default-state="expanded"}
+### 4. How to change the accent color (*The Below **RED** thing/part* see attached screenshot)?
 
 <img src="mention_stuff.png" alt="Accent color" border-effect="rounded"/>
 
@@ -186,13 +186,13 @@ That's it.
 
 {style="warning"}
 
-### 5. How to change the theme welcome username? {collapsible="true" default-state="expanded"}
+### 5. How to change the theme welcome username?
 
 * Go to <ui-path> Settings > Themes > Edit Quick CSS</ui-path>.
 
 * Find the CSS Variables `--user-name` and change it.
 
-### 6. How to make it so that desktop `wallpaper/wallpaper engine's` wallpaper is visible through? {collapsible="true" default-state="expanded"}
+### 6. How to make it so that desktop `wallpaper/wallpaper engine's` wallpaper is visible through?
 
 <primary-label ref="advanced-users-only"/>
 <secondary-label ref="experimental"/>
@@ -240,7 +240,7 @@ However, if you have decided to make up your mind, then
 
 {style="note"}
 
-### 7. How to change the font of the group chat? {collapsible="true" default-state="expanded"}
+### 7. How to change the font of the group chat?
 
 * We have already mentioned how you can import a custom font and
   use it [here](#2-how-to-change-use-another-font-s).
@@ -264,7 +264,7 @@ However, if you have decided to make up your mind, then
 * If you want, you can replace `var(--font-name)` with your custom font name
   if you are planning on using multiple fonts at once.
 
-### 8. CHILLAX is laggy or slow, very slow, any fix? {collapsible="true" default-state="expanded"}
+### 8. CHILLAX is laggy or slow, very slow, any fix?
 
 * Make sure that **Hardware Acceleration** is on.
   If not, then turn it on.
@@ -297,7 +297,7 @@ Consequently, you can try out [OpenAsar](https://openasar.dev/) which is part
 of the [Vencord installer](https://github.com/Vencord/Installer/issues/11).
 This should give a bit more performance boost.
 
-### 9. How to make the member list always stay visible instead of on hover? {collapsible="true" default-state="expanded"}
+### 9. How to make the member list always stay visible instead of on hover?
 
 This is basically an addon; to remove it:
 
@@ -318,7 +318,7 @@ This is basically an addon; to remove it:
 
 3.  <img src="results.png" alt="Always visible member list" border-effect="rounded"/>
 
-### 10. How to get back the old emojis? {collapsible="true" default-state="expanded"}
+### 10. How to get back the old emojis?
 
 This is also very similar to the previous [FAQ](#8-chillax-is-laggy-or-slow-very-slow-any-fix).
 This thing is also an addon.
@@ -331,7 +331,7 @@ Remove it to get back default emojis:
 
 * Now you should have the old emojis.
 
-### 11. How to get rid of the Folder Icons and Make it like the old discord? {collapsible="true" default-state="expanded"}
+### 11. How to get rid of the Folder Icons and Make it like the old discord?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -340,7 +340,7 @@ Remove it to get back default emojis:
 
 * Now it should be normal like the old discord.
 
-### 12. How to get rid of the below-attached ugly thing? {collapsible="true" default-state="expanded"}
+### 12. How to get rid of the below-attached ugly thing?
 
 <img src="ugly_writing_white_bg.png" alt="Apology text" border-effect="rounded"/>
 
@@ -376,7 +376,7 @@ Or, if you are using light mode, then the below css snippet
 
 * Now it should be a bit better.
 
-### 13. How to use dark/light mode in Chillax Theme? {collapsible="true" default-state="expanded"}
+### 13. How to use dark/light mode in Chillax Theme?
 
 You can enable `dark` or `light` mode from the Discord Settings.
 Steps are:
@@ -386,7 +386,7 @@ Steps are:
 * Finally, choose either light mode or dark mode based on your preference,
   and Chillax will reflect that.
 
-### 14. After applying the Chillax theme it looks funny and/or transparent/see through background is missing, what to do? {collapsible="true" default-state="expanded"}
+### 14. After applying the Chillax theme it looks funny and/or transparent/see through background is missing, what to do?
 
 Before applying the theme:
 
@@ -402,7 +402,7 @@ Before applying the theme:
 
 * Now you should have Chillax with the default look and feel.
 
-### 15. How to get rid of the mobile icon besides the avatar? {collapsible="true" default-state="expanded"}
+### 15. How to get rid of the mobile icon besides the avatar?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -415,7 +415,7 @@ Before applying the theme:
 
 * Now mobile icon or phone icon should be gone.
 
-### 16. How to change the color of urls/links? {collapsible="true" default-state="expanded"}
+### 16. How to change the color of urls/links?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
