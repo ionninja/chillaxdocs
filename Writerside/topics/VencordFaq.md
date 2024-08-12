@@ -390,7 +390,7 @@ Steps are:
 
 Before applying the theme:
 
-* Firstly, make sure that there is **no custom** css or css snippet(s) is/are running.
+* Firstly, make sure that there is **no custom** CSS or CSS snippet(s) is/are running.
 
 * Secondly, make sure that no party plugin related to theming
   is running (*if debugging, disable all plugins for quicker conclusion*).
@@ -419,7 +419,7 @@ Before applying the theme:
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* Now apply the below css snippet, which will change the color of every
+* Now apply the below CSS snippet, which will change the color of every
   url to the color of your choice.
 
 ```css
