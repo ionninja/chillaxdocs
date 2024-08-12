@@ -72,7 +72,7 @@ Now your favourite background image/gif should be applied.
   </step>
    <step>
       After that right-click (mouse)
-      on the image and then click on <format style="bold">Open image in a new tab</format>
+      on the image and then click on <format style="bold">Open image in a new tab</format>.
   </step>
    <step>
       Finally, copy the URL/Link from the browser and paste into the appropriate CSS Variable
@@ -392,7 +392,7 @@ Before applying the theme:
 
 * Firstly, make sure that there is **no custom** CSS or CSS snippet(s) is/are running.
 
-* Secondly, make sure that no party plugin related to theming
+* Secondly, make sure that no party plugin or any plugins in general related to theming
   is running (*if debugging, disable all plugins for quicker conclusion*).
 
 * Thirdly, `Settings` > `Appearance` is set to either Dark or light mode.
