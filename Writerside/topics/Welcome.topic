@@ -6,7 +6,7 @@
        title="Welcome" id="Welcome">
 
     <section-starting-page><title>C H I L L A X Docs</title>
-        <description>A discord client mod theme</description>
+        <description>A highly customizable discord client mod theme.</description>
         <spotlight>
             <a href="Quick-start-guide.md" type="start" summary="Quick guide for C H I L L A X"/>
             <a href="Installation-guide.md" type="install"

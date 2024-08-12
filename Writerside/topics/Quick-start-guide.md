@@ -14,7 +14,9 @@
          or <a href="https://betterdiscord.app/">BetterDiscord</a> and then apply/install the theme.
   </step>
    <step>
-      Secondly, you can inject CHILLAX on browser using any of the CSS injectors.
+      Secondly, you can inject CHILLAX on browser
+      using any of the CSS injectors
+      such as <a href="https://github.com/openstyles/stylus">Stylus</a> etc.
   </step>
    <p>Congratulation! You now have chillax!</p>
    <p>
@@ -26,5 +28,5 @@ While not strictly necessary, the following things are highly recommended.
 
 * Turn on hardware acceleration if it's not already enabled by default in the Discord settings section.
     * Steps are `Settings` `>` `Advanced` `>` `Hardware Acceleration`.
-* Change the background and other [css variables](https://github.com/warrayquipsome/Chillax/blob/main/chillax.theme.css)
+* Change the background and other [CSS variables](https://github.com/warrayquipsome/Chillax/blob/main/chillax.theme.css)
   as per your liking.
