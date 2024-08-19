@@ -355,36 +355,37 @@ Remove it to get back default emojis:
 
 {style="tip"}
 
-If you are using Dark mode, then the below CSS snippet
-
-```css
-    /* hide message in the sidebar when using dark mode */
-.theme-dark .sidebar_a4d4d9 .content_eed6a8:after {
-    color: rgba(255, 255, 255, 0) !important;
-    text-shadow: none !important;
-}
-```
-
-Or, if you are using Light mode, then the below CSS snippet
-
-```css
-    /* hide message in the sidebar when using light mode */
-.theme-light .sidebar_a4d4d9 .content_eed6a8:after {
-    color: rgba(255, 255, 255, 0) !important;
-    text-shadow: none !important;
-}
-```
+<tabs>
+    <tab id="ugly-thing-dark-mode" title="Dark Mode">
+        <code-block lang="CSS"> 
+            /* hide message in the sidebar when using dark mode */
+            .theme-dark .sidebar_a4d4d9 .content_eed6a8:after {
+                color: rgba(255, 255, 255, 0) !important;
+                text-shadow: none !important;
+            }
+        </code-block>
+    </tab>
+    <tab id="ugly-thing-light-mode" title="Light Mode">
+        <code-block lang="CSS"> 
+            /* hide message in the sidebar when using light mode */
+            .theme-light .sidebar_a4d4d9 .content_eed6a8:after {
+                color: rgba(255, 255, 255, 0) !important;
+                text-shadow: none !important;
+            }
+        </code-block>
+    </tab>
+</tabs>
 
 * Now it should be a bit better.
 
-### 13. How to use dark/light mode in Chillax Theme?
+### 13. How to use Dark/Light mode in Chillax Theme?
 
 You can enable `Dark` or `Light` mode from the Discord Settings.
 Steps are:
 
 * Now go to `Settings` > `Appearance`.
 
-* Finally, choose either light mode or dark mode based on your preference,
+* Finally, choose either Light mode or Dark mode based on your preference,
   and Chillax will reflect that.
 
 ### 14. After applying the Chillax theme, it looks funny and/or transparent/see through background is missing, what to do?
