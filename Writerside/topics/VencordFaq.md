@@ -295,7 +295,7 @@ However, as a last resort you can
 
 Consequently, you can try out [OpenAsar](https://openasar.dev/) which is part
 of the [Vencord installer](https://github.com/Vencord/Installer/issues/11).
-This should give a bit more performance boost.
+This should make Discord a bit more performant, reducing the lag by a bit.
 
 ### 9. How to make the member list always stay visible instead of on hover?
 
@@ -346,15 +346,16 @@ Remove it to get back default emojis:
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* Now the use/paste below css snippet at the very end:
+* Now use/paste the below CSS snippet for the respective mode(*Dark/Light*)
+  at the very end of the `Edit Quick CSS`:
 
-> If the below css does not work,
+> If the below CSS does not work,
 > then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
 > the [Support Discord Server](https://discord.gg/DrfX6286kF).
 
 {style="tip"}
 
-If you are using dark mode, then the below css snippet
+If you are using Dark mode, then the below CSS snippet
 
 ```css
     /* hide message in the sidebar when using dark mode */
@@ -364,7 +365,7 @@ If you are using dark mode, then the below css snippet
 }
 ```
 
-Or, if you are using light mode, then the below css snippet
+Or, if you are using Light mode, then the below CSS snippet
 
 ```css
     /* hide message in the sidebar when using light mode */
@@ -378,7 +379,7 @@ Or, if you are using light mode, then the below css snippet
 
 ### 13. How to use dark/light mode in Chillax Theme?
 
-You can enable `dark` or `light` mode from the Discord Settings.
+You can enable `Dark` or `Light` mode from the Discord Settings.
 Steps are:
 
 * Now go to `Settings` > `Appearance`.
@@ -386,14 +387,14 @@ Steps are:
 * Finally, choose either light mode or dark mode based on your preference,
   and Chillax will reflect that.
 
-### 14. After applying the Chillax theme it looks funny and/or transparent/see through background is missing, what to do?
+### 14. After applying the Chillax theme, it looks funny and/or transparent/see through background is missing, what to do?
 
 Before applying the theme:
 
 * Firstly, make sure that there is **no custom** CSS or CSS snippet(s) is/are running.
 
 * Secondly, make sure that no party plugin or any plugins in general related to theming
-  is running (*if debugging, disable all plugins for quicker conclusion*).
+  are running (*if debugging, disable all plugins for quicker conclusion*).
 
 * Thirdly, `Settings` > `Appearance` is set to either Dark or light mode.
 
