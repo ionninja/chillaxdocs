@@ -269,7 +269,7 @@ However, if you have decided to make up your mind, then
 * Make sure that **Hardware Acceleration** is on.
   If not, then turn it on.
 
-* The steps are first `settings`, then `Advance` and then turn on `Hardware Acceleration`.
+* The steps are first `Settings`, then `Advance` and then turn on `Hardware Acceleration`.
 
 #### *Almost 99% of the time this is the reason behind lag.*
 
