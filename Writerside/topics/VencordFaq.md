@@ -346,7 +346,7 @@ Remove it to get back default emojis:
 Now, it should be similar to the default discord style with slight drop shadow around the
 transparent images.
 
-### 13. How to get rid of the Fried Grid?
+### 13. How to get rid of the Friend Grid?
 
 <secondary-label ref="newly-added"/>
 
@@ -421,7 +421,7 @@ Before applying the theme:
 
 * Now you should have Chillax with the default look and feel.
 
-### 17. How to get rid of the mobile icon besides the avatar?
+### 17. How to get rid of the mobile icon beside the avatar?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
