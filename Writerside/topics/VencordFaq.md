@@ -494,6 +494,22 @@ Before applying the theme:
 
 {style="tip"} 
 
+### 22. How to get back the scroll wheel/scroller/scrollbar in CHILLAX?
+
+<secondary-label ref="newly-added"/>
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* Now find the CSS variable `--chillax-scroller-color` which is by default set to `transparent`.
+
+* Change it to a [hex](https://colors-picker.com/hex-color-picker/) color of your choice,
+  and the scrollbar/scroll wheel should appear.
+
+> In some places the scroll wheel/scrollbar is hidden until you hover over.
+> 
+{style="note"}
+
+
 ## Still Have Question(s)?
 
 Join our support
