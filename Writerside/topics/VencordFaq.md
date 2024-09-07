@@ -31,7 +31,7 @@ See the below-attached screenshots:
 
 Now to go to line number `46` (*at the time of writing, the line number
 is 46 which in a later version might change*) or where the variable `--wallpaper`
-defined and change the url that is within the single quote `''`
+defined and change the url that is within the single quote `""`
 to the **wallpaper**/**gif** **cdn url** that you want to set.
 
 > After opening the `Edit Quick CSS` it is all blank?
@@ -45,6 +45,8 @@ See the below screenshots:
 <img src="bg_change.png" alt="The place where to change the url" border-effect="rounded"/>
 
 Now your favourite background image/gif should be applied.
+Moreover, if you need to control the opacity of the background,
+please adjust the CSS variable `--bg-opacity`.
 
 > **Note**: If you are using discord CDN, they expire after some time.
 > For this the background may suddenly become black, or it might start
@@ -240,29 +242,21 @@ However, if you have decided to make up your mind, then
 
 {style="note"}
 
+
 ### 7. How to change the font of the group chat?
+
+<secondary-label ref="newly-added"/>
+
 
 * We have already mentioned how you can import a custom font and
   use it [here](#2-how-to-change-use-another-font-s).
 
-* Now use the below CSS snippet (*paste it at the **very bottom** of the `Edit Quick CSS`*):
+* Now, the steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-> If the below CSS does not work,
-> then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
-> the [Support Discord Server](https://discord.gg/DrfX6286kF).
+* After that, find the CSS variable `--group-chat-font` and provide the font name 
+  that you like to use within `" "` (double quote).
 
-{style="note"}
-
-  ```css
-    /* Reset groupchat name font */
-.input_f8b740 {
-    font-family: var(--font-name) !important; /* Write the font name here */
-    font-weight: inherit !important; /* Self explanatory */
-}
-  ```
-
-* If you want, you can replace `var(--font-name)` with your custom font name
-  if you are planning on using multiple fonts at once.
+* Make sure that the font that you are trying to set is available in the theme context.
 
 ### 8. CHILLAX is laggy or slow, very slow, any fix?
 
@@ -273,7 +267,7 @@ However, if you have decided to make up your mind, then
 
 #### *Almost 99% of the time this is the reason behind lag.*
 
-If you are on a system that is not older than six or seven years,
+If you are on a system that is not older than eight or nine years,
 the theme should work fine without any lag.
 
 However, as a last resort you can
@@ -326,7 +320,7 @@ Remove it to get back default emojis:
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* **Remove** or **comment out** the line (*currently line number `29` and maybe different in your case*) containing
+* **Remove** or **comment out** the line (*currently line number `27` and maybe different in your case*) containing
   `@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");`.
 
 * Now you should have the old emojis.
@@ -335,12 +329,35 @@ Remove it to get back default emojis:
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* **Remove** or **comment out** the line (*currently line number `34` and maybe different in your case*) containing
+* **Remove** or **comment out** the line (*currently line number `32` and maybe different in your case*) containing
   `@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");`.
 
-* Now it should be normal like the old discord.
+* Now it should be normal like the old Discord.
 
-### 12. How to get rid of the below-attached ugly thing?
+### 12. How to get rid of the Radial Status/Ring around the user profile picture/image?
+
+<secondary-label ref="newly-added"/>
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* **Remove** or **comment out** the line (*currently line number `33` and maybe different in your case*) containing
+  `@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");`.
+
+Now, it should be similar to the default discord style with slight drop shadow around the
+transparent images.
+
+### 13. How to get rid of the Fried Grid?
+
+<secondary-label ref="newly-added"/>
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* **Remove** or **comment out** the line (*currently line number `34` and maybe different in your case*) containing
+  `@import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");`.
+
+Now the friend grid should be similar to the default Discord.
+
+### 14. How to get rid of the below-attached ugly thing?
 
 <img src="ugly_writing_white_bg.png" alt="Apology text" border-effect="rounded"/>
 
@@ -378,7 +395,7 @@ Remove it to get back default emojis:
 
 * Now it should be a bit better.
 
-### 13. How to use Dark/Light mode in Chillax Theme?
+### 15. How to use Dark/Light mode in Chillax Theme?
 
 You can enable `Dark` or `Light` mode from the Discord Settings.
 Steps are:
@@ -388,7 +405,7 @@ Steps are:
 * Finally, choose either Light mode or Dark mode based on your preference,
   and Chillax will reflect that.
 
-### 14. After applying the Chillax theme, it looks funny and/or transparent/see through background is missing, what to do?
+### 16. After applying the Chillax theme, it looks funny and/or transparent/see through background is missing, what to do?
 
 Before applying the theme:
 
@@ -404,11 +421,11 @@ Before applying the theme:
 
 * Now you should have Chillax with the default look and feel.
 
-### 15. How to get rid of the mobile icon besides the avatar?
+### 17. How to get rid of the mobile icon besides the avatar?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* Now go to the line `92` or find the line that says `--rs-phone-visible: block;` and
+* Now go to the line `95` or find the line that says `--rs-phone-visible: block;` and
   change this line to the below line:
 
     ```css
@@ -417,7 +434,7 @@ Before applying the theme:
 
 * Now mobile icon or phone icon should be gone.
 
-### 16. How to change the color of urls/links?
+### 18. How to change the color of urls/links?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 

@@ -14,12 +14,12 @@
         Advanced users only
     </primary-label>
 
+    <secondary-label id="newly-added" name="Newly Added" color="strawberry">
+        Newly Added
+    </secondary-label>
+
     <primary-label id="incomplete" short-name="I" name="Incomplete" color="red">
         This topic is yet to be written. PRs are always welcome :)
-    </primary-label>
-
-    <primary-label id="jetbrains" short-name="JB" name="JetBrains" href="https://www.jetbrains.com" color="red">
-        Go to www.jetbrains.com
     </primary-label>
 
     <secondary-label id="wip" name="WIP" color="purple">Work in progress</secondary-label>
