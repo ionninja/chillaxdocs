@@ -447,6 +447,53 @@ Before applying the theme:
 }
 ```
 
+### 19. How to change the input placeholder value from "*Life is so much easier when you just take a moment to chill*" to something that I want?
+
+<secondary-label ref="newly-added"/>
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* Now find the CSS variables `--chillax-input-field` and `--chillax-input-field-locked`.
+
+* Change them according to what you like most. 
+
+> CSS variable `--chillax-input-field` and `--chillax-input-field-locked`
+> provided for fine-grained control over the locked and unlocked channel input placeholder text.
+
+{style="note"}
+
+
+### 20. How to change the Avatar Only Member list's rounder corner/border radius?
+
+<secondary-label ref="newly-added"/>
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* Now find the CSS variable `--memberlist-border-radius` and change the pixel as per your preference.
+
+* If you don't like the border radius and want it to be a rectangle, set the value to `0px`.
+
+> Note the value must end in `px` or `rem` or `em`.
+
+{style="note"}
+
+
+### 21. How to change the typing indicator text?
+
+<secondary-label ref="newly-added"/>
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* Now find the CSS variables `--chillax-input-typing-indicator-one-person` and `--chillax-input-typing-indicator-many-person`.
+
+* Change them according to what you like most.
+
+> CSS variable `--chillax-input-typing-indicator-one-person` and `--chillax-input-typing-indicator-many-person`
+> provided for fine-grained control over the number of persons typing at a time.
+> Customize them however you please.
+
+{style="tip"} 
+
 ## Still Have Question(s)?
 
 Join our support
