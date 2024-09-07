@@ -376,7 +376,7 @@ Now the friend grid should be similar to the default Discord.
     <tab id="ugly-thing-dark-mode" title="Dark Mode">
         <code-block lang="CSS"> 
             /* hide message in the sidebar when using dark mode */
-            .theme-dark .sidebar_a4d4d9 .content_eed6a8:after {
+            html.theme-dark .sidebar_a4d4d9 .content_eed6a8:after {
                 color: rgba(255, 255, 255, 0) !important;
                 text-shadow: none !important;
             }
@@ -385,7 +385,7 @@ Now the friend grid should be similar to the default Discord.
     <tab id="ugly-thing-light-mode" title="Light Mode">
         <code-block lang="CSS"> 
             /* hide message in the sidebar when using light mode */
-            .theme-light .sidebar_a4d4d9 .content_eed6a8:after {
+            html.theme-light .sidebar_a4d4d9 .content_eed6a8:after {
                 color: rgba(255, 255, 255, 0) !important;
                 text-shadow: none !important;
             }
