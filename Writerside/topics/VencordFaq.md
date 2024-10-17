@@ -245,9 +245,6 @@ However, if you have decided to make up your mind, then
 
 ### 7. How to change the font of the group chat?
 
-<secondary-label ref="newly-added"/>
-
-
 * We have already mentioned how you can import a custom font and
   use it [here](#2-how-to-change-use-another-font-s).
 
@@ -336,8 +333,6 @@ Remove it to get back default emojis:
 
 ### 12. How to get rid of the Radial Status/Ring around the user profile picture/image?
 
-<secondary-label ref="newly-added"/>
-
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
 * **Remove** or **comment out** the line (*currently line number `33` and maybe different in your case*) containing
@@ -347,8 +342,6 @@ Now, it should be similar to the default discord style with slight drop shadow a
 transparent images.
 
 ### 13. How to get rid of the Friend Grid?
-
-<secondary-label ref="newly-added"/>
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -449,8 +442,6 @@ Before applying the theme:
 
 ### 19. How to change the input placeholder value from "*Life is so much easier when you just take a moment to chill*" to something that I want?
 
-<secondary-label ref="newly-added"/>
-
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
 * Now find the CSS variables `--chillax-input-field` and `--chillax-input-field-locked`.
@@ -465,8 +456,6 @@ Before applying the theme:
 
 ### 20. How to change the Avatar Only Member list's rounder corner/border radius?
 
-<secondary-label ref="newly-added"/>
-
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
 * Now find the CSS variable `--memberlist-border-radius` and change the pixel as per your preference.
@@ -479,8 +468,6 @@ Before applying the theme:
 
 
 ### 21. How to change the typing indicator text?
-
-<secondary-label ref="newly-added"/>
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -496,8 +483,6 @@ Before applying the theme:
 
 ### 22. How to get back the scroll wheel/scroller/scrollbar in CHILLAX?
 
-<secondary-label ref="newly-added"/>
-
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
 * Now find the CSS variable `--chillax-scroller-color` which is by default set to `transparent`.
@@ -509,6 +494,24 @@ Before applying the theme:
 > 
 {style="note"}
 
+
+### 23. How to make the Mute and Headphone icon always stays visible even when not hovering over user control?
+
+<secondary-label ref="newly-added"/>
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+*  Now paste the below CSS snippet:
+
+```css
+/* hide message in the sidebar when using light mode */
+html.theme-light .sidebar_a4d4d9 .content_eed6a8:after {
+    color: rgba(255, 255, 255, 0) !important;
+    text-shadow: none !important;
+}
+```
+
+* Now the mute and headphone icon should always be visible.
 
 ## Still Have Question(s)?
 
