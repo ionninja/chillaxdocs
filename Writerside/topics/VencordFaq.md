@@ -504,10 +504,10 @@ Before applying the theme:
 *  Now paste the below CSS snippet:
 
 ```css
-/* hide message in the sidebar when using light mode */
-html.theme-light .sidebar_a4d4d9 .content_eed6a8:after {
-    color: rgba(255, 255, 255, 0) !important;
-    text-shadow: none !important;
+/* Mute and Headphone icon always stays visible even when not
+   hovering over user control */
+.panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
+    opacity: 100% !important;
 }
 ```
 
