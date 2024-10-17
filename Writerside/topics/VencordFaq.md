@@ -490,7 +490,7 @@ Before applying the theme:
 * Change it to a [hex](https://colors-picker.com/hex-color-picker/) color of your choice,
   and the scrollbar/scroll wheel should appear.
 
-> In some places the scroll wheel/scrollbar is hidden until you hover over.
+> In some places, the scroll wheel/scrollbar is hidden until you hover over.
 > 
 {style="note"}
 
