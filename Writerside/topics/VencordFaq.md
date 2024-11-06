@@ -10,7 +10,7 @@
 <p>
     Before going or reading any further, make sure that you have
     installed <format color="red">C H I L L A X </format>
-    follwoing the instructions given in
+    following the instructions given in
     <a href="Installation-guide.md">Installation Guide</a> for Vencord.
 </p>
 
@@ -84,7 +84,7 @@ please adjust the CSS variable `--bg-opacity`.
    <p>This process not only applies to image/gif but also for virtually anything including fonts etc.</p>
 </procedure>
 
-> **Note**: If the link is not working or the image is not showing up
+> **Note**: If the link is not working or the image is not showing up,
 > then please make sure that the link that you are using is the RAW GitHub link.
 > A typical raw GitHub link would look like `https://raw.githubusercontent.com/{username}/{repositoryname}/{branchname}/{path_to_your_file}`.
 > Notice that the link starts with `https://raw.githubusercontent.com` and then it will be
@@ -143,7 +143,7 @@ And now the new font(s) should be applied.
   the described procedure [here](#procedure-to-host-images-on-github).
 
 * After clicking on the font file, right-click (*mouse*) on the <ui-path>RAW</ui-path> button
-  located at the right corner and then click <ui-path>Open link in a new tab</ui-path> button.
+  located in the right corner and then click <ui-path>Open link in a new tab</ui-path> button.
   Finally, copy **RAW** GitHub URL/Link.
 
 * Now just like in the previous Step 7, we import the font, but this time
@@ -234,10 +234,10 @@ However, if you have decided to make up your mind, then
 
 > **Note**: *Linux users this may be a hit or miss due to infinite number of factors
 > (Too many DEs, WMs & Display Protocols).*
-> But using WM you can **natively add/force** translucence
+> But using WM, you can **natively add/force** translucence
 > at window level
-> (i.e. [hyprland](https://hyprland.org/),
-> [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.),
+> (i.e., [hyprland](https://hyprland.org/),
+> [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin), etc.),
 > and you won't have to do any of the above-mentioned things.
 
 {style="note"}
@@ -284,7 +284,7 @@ However, as a last resort you can
 
 * This should make it a little less laggy.
 
-Consequently, you can try out [OpenAsar](https://openasar.dev/) which is part
+Consequently, you can try out [OpenAsar](https://openasar.dev/), which is part
 of the [Vencord installer](https://github.com/Vencord/Installer/issues/11).
 This should make Discord a bit more performant, reducing the lag by a bit.
 
@@ -460,7 +460,7 @@ Before applying the theme:
 
 * Now find the CSS variable `--memberlist-border-radius` and change the pixel as per your preference.
 
-* If you don't like the border radius and want it to be a rectangle, set the value to `0px`.
+* If you don't like the border radius and want it to be a rectangle, set the value to `0 px`.
 
 > Note the value must end in `px` or `rem` or `em`.
 
