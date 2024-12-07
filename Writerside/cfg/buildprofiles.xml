@@ -1,9 +1,9 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://helpserver.labs.jb.gg/help/schemas/mvp/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <variables>
-        <algolia-id>VNKPWW3QH4</algolia-id>
+        <algolia-id>2VCTU3L4IT</algolia-id>
         <algolia-index>chillax</algolia-index>
-        <algolia-api-key>04b3f007dc0a147ac10abd5c4c419bae</algolia-api-key>
+        <algolia-api-key>4c5c3c4f5237e493a7eb01587afd3a3c</algolia-api-key>
         <!--        <config-search-scopes-provider>https://www.jetbrains.com/</config-search-scopes-provider>-->
         <noindex-content>false</noindex-content>
         <enable-browser-edits>true</enable-browser-edits>
