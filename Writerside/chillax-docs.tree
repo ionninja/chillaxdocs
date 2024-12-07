@@ -3,11 +3,13 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="chillax-docs"
-                 name="C H I L L A X"
+                 name="J A C K b l a c k"
                  start-page="Welcome.topic">
     <toc-element topic="Welcome.topic"/>
     <toc-element topic="Quick-start-guide.md"/>
     <toc-element topic="Transactions.md"/>
+    <toc-element topic="UI-settings-overlay-component.md"/>
+    <toc-element topic="Base-table-component.md"/>
     <toc-element topic="Installation-guide.md"/>
     <toc-element topic="Configuration.md"/>
     <toc-element topic="Contributing-to-the-documentation.md"/>

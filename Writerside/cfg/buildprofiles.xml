@@ -7,12 +7,12 @@
         <!--        <config-search-scopes-provider>https://www.jetbrains.com/</config-search-scopes-provider>-->
         <noindex-content>false</noindex-content>
         <enable-browser-edits>true</enable-browser-edits>
-        <browser-edits-url>https://github.com/Chillax-ORG/chillaxdocs/tree/main/Writerside/</browser-edits-url>
+        <browser-edits-url>https://github.com/ionninja/chillaxdocs/tree/main/Writerside/</browser-edits-url>
         <primary-color>dracula</primary-color>
-        <custom-favicons>chillaxlogo.png</custom-favicons>
-        <header-logo>chillaxlogodark.png</header-logo>
+        <custom-favicons>jb.png</custom-favicons>
+        <header-logo>jb.png</header-logo>
         <!--        replace the ulr with the docs page links when deployed-->
-        <product-web-url>https://github.com/Chillax-ORG</product-web-url>
+        <product-web-url>https://t.me/BaronGarcia</product-web-url>
         <download-title>Get CHILLAX</download-title>
         <download-page>https://github.com/warrayquipsome/Chillax/blob/main/chillax.theme.css</download-page>
         <showDownloadButton>true</showDownloadButton>
@@ -22,14 +22,13 @@
     <build-profile instance="chillax-docs"/>
     <sitemap priority="0.35" change-frequency="weekly"/>
     <footer>
-        <copyright>2024 Chillax-ORG</copyright>
-        <social type="email" href="noor.mohammad.rafee@g.bracu.ac.bd"/>
+        <copyright>2024 Jackblack</copyright>
+        <social type="email" href="ryan.g@wildwestgaming.nl"/>
 <!--        <social type="twitter" href=""/>-->
 <!--        <social type="facebook" href=""/>-->
-        <link href="https://discord.com/invite/DrfX6286kF">Discord Community</link>
-        <link href="https://betterdiscord.app/theme/Chillax">Chillax on BetterDiscord</link>
-        <link href="https://github.com/warrayquipsome/Chillax">Chillax Repo</link>
-        <link href="https://github.com/Chillax-ORG">Chillax-ORG</link>
-        <link href="https://github.com/Inmoresentum">Follow Me</link>
+        <link href="https://t.me/BaronGarcia">Telegram</link>
+        <link href="https://betterdiscord.app/theme/Chillax">WildwestGaming on Linkedin</link>
+        <link href="https://github.com/Wild-West-Gaming">WildwestGaming</link>
+        <link href="https://github.com/Jackblack-io">Jackblack-io</link>
     </footer>
 </buildprofiles>
