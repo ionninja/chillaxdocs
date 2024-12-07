@@ -2,7 +2,7 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <variables>
         <algolia-id>2VCTU3L4IT</algolia-id>
-        <algolia-index>chillax</algolia-index>
+        <algolia-index>jackblack</algolia-index>
         <algolia-api-key>4c5c3c4f5237e493a7eb01587afd3a3c</algolia-api-key>
         <!--        <config-search-scopes-provider>https://www.jetbrains.com/</config-search-scopes-provider>-->
         <noindex-content>false</noindex-content>
