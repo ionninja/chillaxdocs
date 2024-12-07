@@ -5,7 +5,7 @@
 
 <tldr>
   <p>This component manages the base table structure, providing a flexible and customizable table component for various use cases.</p>
-  <img src="flowchart.png" alt="Flowchart of Base Table Component"/>
+  <img src="basetable.png" alt="Flowchart of Base Table Component"/>
 </tldr>
 
 <procedure title="To manage the base table component:" id="procedure-id-base-table">

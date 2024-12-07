@@ -8,7 +8,7 @@
     <section-starting-page><title>Jackblack Internal Documentation Hub</title>
         <description>Comprehensive documentation for Jackblack's internal systems and APIs.</description>
         <spotlight>
-            <a href="Quick-start-guide.md" type="start" summary="Quick start guide for Jackblack systems"/>
+            <a href="Player-profile.md" type="start" summary="Quick start guide for Jackblack systems"/>
             <a href="Installation-guide.md" type="install"
                summary="Detailed installation instructions for Jackblack systems"/>
         </spotlight>

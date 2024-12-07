@@ -5,7 +5,7 @@
 
 <tldr>
   <p>This component handles the UI settings overlay, allowing users to customize their settings.</p>
-  <img src="flowchart.png" alt="Flowchart of UI Settings Overlay Component"/>
+  <img src="uisettingsoverlay.png" alt="Flowchart of UI Settings Overlay Component"/>
 </tldr>
 
 <procedure title="To manage UI settings:" id="procedure-id-ui-settings">
