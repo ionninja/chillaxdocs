@@ -5,28 +5,26 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Welcome" id="Welcome">
 
-    <section-starting-page><title>C H I L L A X Docs</title>
-        <description>A highly customizable discord client mod theme.</description>
+    <section-starting-page><title>Jackblack Internal Documentation Hub</title>
+        <description>Comprehensive documentation for Jackblack's internal systems and APIs.</description>
         <spotlight>
-            <a href="Quick-start-guide.md" type="start" summary="Quick guide for C H I L L A X"/>
+            <a href="Quick-start-guide.md" type="start" summary="Quick start guide for Jackblack systems"/>
             <a href="Installation-guide.md" type="install"
-               summary="Detailed installation instructions for client mods (Vencord and BetterDiscord)"/>
+               summary="Detailed installation instructions for Jackblack systems"/>
         </spotlight>
 
         <primary>
-            <title>Help and support</title>
-            <a href="https://github.com/warrayquipsome/Chillax/issues" type="idea"
-               summary="Start a discussion, propose an idea, ask a question">Getting help</a>
+            <title>Help and Support</title>
+            <a href="https://github.com/jackblack/issues" type="idea"
+               summary="Start a discussion, propose an idea, ask a question">Getting Help</a>
             <a href="FAQs.md" type="offer" summary="Solutions to common issues">FAQ</a>
-            <a href="https://discord.com/invite/DrfX6286kF" type="community" summary="Chat with us on Discord">Chat</a>
+            <a href="https://discord.com/invite/jackblack" type="community" summary="Chat with us on Discord">Chat</a>
         </primary>
 
         <secondary>
             <title>Promo</title>
-            <a href="https://github.com/warrayquipsome/Chillax" type="branch" summary="Give us a star and a follow">Source
-                Code</a>
-            <a href="https://github.com/Chillax-ORG" type="network" summary="Checkout our org and give us a follow">Chillax
-                Org</a>
+            <a href="https://github.com/jackblack" type="branch" summary="Give us a star and a follow">Source Code</a>
+            <a href="https://github.com/jackblack-org" type="network" summary="Checkout our org and give us a follow">Jackblack Org</a>
             <a href="https://github.com/Inmoresentum" type="filtering" summary="Hey, don't forget about me!">:)</a>
         </secondary>
     </section-starting-page>
