@@ -33,7 +33,7 @@ as the [Writerside](https://www.jetbrains.com/writerside/) project template.
 &#160;
 
 <p align="center">Copyright &copy; 2024-present 
-   <a href="https://github.com/Jackblack-ORG" target="_blank">Jackblack-ORG</a>
+   <a href="https://github.com/Jackblack-io" target="_blank">Jackblack-io</a>
 </p>
 
 <p align="center">
