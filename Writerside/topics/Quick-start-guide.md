@@ -15,7 +15,7 @@
    <step>The statistics are processed and converted to USD.</step>
    <step>The server sends a JSON response containing the player's profile information and statistics.</step>
    <p>Congratulations! You have successfully retrieved the player's profile and statistics.</p>
-   <p>Need more help? Checkout the <a href="Installation-guide.md">Installation-guide</a>!</p>
+   <p>Need more help? Checkout the <a href="Installation-guide.md">Installation-guide</a> !</p>
 </procedure>
 
 While not strictly necessary, the following things are highly recommended:
@@ -80,7 +80,7 @@ While not strictly necessary, the following things are highly recommended:
    <step>Send a JSON response containing the player's profile information and statistics.</step>
    <step>Catch any errors that occur during the process and pass them to the next middleware for handling.</step>
    <p>Congratulations! You have successfully implemented error handling in the Player Profile API.</p>
-   <p>Need more help? Checkout the <a href="Installation-guide.md">Installation-guide</a>!</p>
+   <p>Need more help? Checkout the <a href="Installation-guide.md">Installation-guide</a> !</p>
 </procedure>
 
 ## Error Handling Mechanisms
