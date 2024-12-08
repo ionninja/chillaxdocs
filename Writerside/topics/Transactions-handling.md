@@ -29,13 +29,13 @@ While not strictly necessary, the following things are highly recommended:
 
 Generates a signature for the payload using the secret key.
 
-#### Parameters
+#### Parameters {id="parameters_1"}
 
 - `payload`: The payload to be signed.
 - `secret`: The secret key used to generate the signature.
 - `timestamp`: The timestamp of the transaction.
 
-#### Returns
+#### Returns {id="returns_1"}
 
 - A string representing the generated signature.
 
@@ -43,12 +43,12 @@ Generates a signature for the payload using the secret key.
 
 Retrieves the socket for a specific table and user.
 
-#### Parameters
+#### Parameters {id="parameters_2"}
 
 - `tableId`: The ID of the table.
 - `userId`: The ID of the user.
 
-#### Returns
+#### Returns {id="returns_2"}
 
 - The socket associated with the specified table and user.
 
