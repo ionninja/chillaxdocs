@@ -8,6 +8,13 @@
     <toc-element topic="Welcome.topic"/>
     <toc-element topic="Player-profile.md"/>
     <toc-element topic="Transactions.md"/>
+    <toc-element topic="Transactions-handling.md"/>
+    <toc-element topic="Session-management.md"/>
+    <toc-element topic="Socket-events-table.md"/>
+    <toc-element topic="Socket.md"/>
+    <toc-element topic="Blackjack-logic.md"/>
+    <toc-element topic="Bill-queue.md"/>
+    <toc-element topic="Routes-loader.md"/>
     <toc-element topic="UI-settings-overlay-component.md"/>
     <toc-element topic="Base-table-component.md"/>
     <toc-element topic="Installation-guide.md"/>
